@@ -5,7 +5,7 @@
 @stop
 
 @section('header')
-	<h2>Login</h2>
+	<h2>Login</h2>	
 @stop
 
 @section('sections')

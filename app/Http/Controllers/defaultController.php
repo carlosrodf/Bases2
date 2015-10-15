@@ -13,6 +13,30 @@ class defaultController extends Controller
     	return view('pages.index');
     }
 
+    public function super(){
+    	if(Request::session()->get('rol',-1) == 0 and Request::session()->get('user','') !== ''){
+    		return view('pages.superProfile');
+    	}else{
+    		return redirect('/');
+    	}
+    }
+
+    public function admin(){
+    	if(Request::session()->get('rol',-1) == 1 and Request::session()->get('user','') !== ''){
+    		return view('pages.adminProfile');
+    	}else{
+    		return redirect('/');
+    	}
+    }
+
+    public function user(){
+    	if(Request::session()->get('rol',-1) == 2 and Request::session()->get('user','') !== ''){
+    		return view('pages.userProfile');
+    	}else{
+    		return redirect('/');
+    	}
+    }
+
     public function login(){
     	$user = Request::get('user');
     	$password = Request::get('password');
@@ -27,11 +51,11 @@ class defaultController extends Controller
 
     		switch ($output[0]->rol) {
     			case 0:
-    				return 'super';
+    				return redirect('super');
     			case 1:
-    				return 'admin';
+    				return redirect('admin');
     			default:
-    				return 'normal';
+    				return redirect('user');
     		}
     	}else{
     		return view('pages.index')->with('error','Datos incorrectos');
