@@ -248,4 +248,20 @@ BEGIN
 DELETE FROM CALIFICACION WHERE calificacion=calificacion;
 END $$
 
+-- FUNCION DE BUSQUEDA
+
+DELIMITER $$
+CREATE PROCEDURE busqueda(item VARCHAR(20))
+BEGIN
+SELECT E.establecimiento,E.nombre,E.descripcion,E.punteo
+FROM ESTABLECIMIENTO E LEFT JOIN TIPO_ESTABLECIMIENTO TE ON E.tipo_establecimiento = TE.tipo_establecimiento
+WHERE E.nombre LIKE CONCAT('%',item,'%')
+OR TE.nombre LIKE CONCAT('%',item,'%')
+UNION
+SELECT E.establecimiento,E.nombre,E.descripcion,E.punteo
+FROM ESTABLECIMIENTO E LEFT JOIN DIMENSION_ESTABLECIMIENTO DE ON E.establecimiento = DE.establecimiento,
+DIMENSION_ESTABLECIMIENTO DE2 LEFT JOIN DIMENSION D ON DE2.dimension = D.dimension
+WHERE DE.establecimiento = DE2.establecimiento
+AND D.nombre LIKE CONCAT('%',item,'%');
+END $$
 DELIMITER ;

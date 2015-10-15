@@ -81,4 +81,13 @@ class defaultController extends Controller
         }
     }
 
+    public function busqueda(){
+        $result = DB::select('call busqueda(?);',array(Request::get('search')));
+        return view('pages.busqueda')->with('resultados',json_encode($result));
+    }
+
+    public function buscar(){
+        return view('pages.busqueda');
+    }
+
 }

@@ -125,9 +125,9 @@
 
 				<!-- Search -->
 					<section class="box search">
-						<form method="post" action="#">
-							<input type="text" class="text" name="search" placeholder="Buscar" />
-						</form>
+						{!! Form::open(['url'=> '/busqueda']) !!}
+							{!! Form::text('search',null,['class' => 'text', 'placeholder' => 'Buscar']) !!}
+						{!! Form::close() !!}
 					</section>
 
 					@yield('sections')
