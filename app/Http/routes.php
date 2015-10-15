@@ -20,3 +20,8 @@ Route::get('/user','defaultController@user');
 
 Route::get('/registro','defaultController@registro');
 Route::post('/registro','defaultController@registrar');
+
+Route::get('/abc_establecimiento','AbcController@establecimiento');
+Route::post('/a_establecimiento','AbcController@crearEstablecimiento');
+Route::post('/b_establecimiento','AbcController@borrarEstablecimiento');
+Route::post('/c_establecimiento','AbcController@actualizarEstablecimiento');
