@@ -17,3 +17,6 @@ Route::post('/', 'defaultController@login');
 Route::get('/super','defaultController@super');
 Route::get('/admin','defaultController@admin');
 Route::get('/user','defaultController@user');
+
+Route::get('/registro','defaultController@registro');
+Route::post('/registro','defaultController@registrar');

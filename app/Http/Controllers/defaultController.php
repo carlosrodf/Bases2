@@ -31,7 +31,7 @@ class defaultController extends Controller
 
     public function user(){
     	if(Request::session()->get('rol',-1) == 2 and Request::session()->get('user','') !== ''){
-    		return view('pages.userProfile');
+    		return view('pages.normalProfile');
     	}else{
     		return redirect('/');
     	}
@@ -60,6 +60,25 @@ class defaultController extends Controller
     	}else{
     		return view('pages.index')->with('error','Datos incorrectos');
     	}
+    }
+
+    public function registro(){
+        return view('pages.registro');
+    }
+
+    public function registrar(){
+        $validacion = DB::select('select count(*) as N from USUARIO where usuario = ?;',array(Request::get('usuario')));
+        if($validacion[0]->N == 0){
+            DB::statement('call crearUsuario(?,?,?,?,2);',array(
+                Request::get('usuario'),
+                Request::get('password1'),
+                Request::get('name'),
+                Request::get('last')
+            ));
+            return redirect('/');
+        }else{
+            return view('pages.registro')->with('error','Datos incorrectos');
+        }
     }
 
 }

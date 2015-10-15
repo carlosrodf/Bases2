@@ -115,7 +115,13 @@
 			<div id="sidebar">
 
 				<!-- Logo -->
-					<h1 id="logo"><a href="#">OUTGUAT</a></h1>
+					<h1 id="logo"><a href="/">OUTGUAT</a></h1>
+
+					<nav id="nav">
+						<ul>
+							@yield('nav_items')
+						</ul>
+					</nav>
 
 				<!-- Search -->
 					<section class="box search">
