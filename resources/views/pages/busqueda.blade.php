@@ -14,6 +14,13 @@
 @stop
 
 @section('body')
-	{{ $resultados }}
+	<table>
+	<tr><th>Establecimiento</th><th>Descripcion</th><th>Calificacion</th></tr>
+	@foreach ($resultados as $resultado)
+		<tr>
+		<td><a href="/establecimiento/{{$resultado->establecimiento}}">{{$resultado->nombre}}</a></td><td>{{$resultado->descripcion}}</td><td>{{$resultado->punteo}}</td>
+		</tr>
+	@endforeach
+	</table>
 @stop
-
+<a href="http://www.w3schools.com">Visit W3Schools.com!</a>

@@ -84,12 +84,7 @@ class defaultController extends Controller
     public function busqueda(){
         $resultados = DB::select('call busqueda(?);',array(Request::get('search')));
 
-        $nva = json_decode(json_encode($resultados));
-        $item = json_decode(json_encode($nva[0]));
-        return $item['nombre'];
-        //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA FUUUUUUUUCK
-
-        return view('pages.busqueda')->with('resultados',json_encode($resultados));
+        return view('pages.busqueda')->with('resultados',$resultados);
     }
 
     public function buscar(){
