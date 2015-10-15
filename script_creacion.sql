@@ -174,20 +174,29 @@ CREATE TABLE TIPO_SERVICIO(
 --
 
 CREATE TABLE USUARIO(
+    id_usuario INT AUTO_INCREMENT,
     usuario     VARCHAR(20)    NOT NULL,
     nombre      VARCHAR(20)    NOT NULL,
     apellido    VARCHAR(20),
     rol         INT            NOT NULL,
     password VARCHAR(20) NOT NULL,
-    PRIMARY KEY (usuario)
+    PRIMARY KEY (id_usuario)
 )ENGINE=INNODB
 ;
 
+--
+-- TABLE: USUARIO
+--
 
+ALTER TABLE USUARIO ADD UNIQUE UsuarioUnique(usuario)
+;
 
 -- 
 -- TABLE: CALIFICACION 
 --
+
+ALTER TABLE CALIFICACION ADD UNIQUE calificacionUnique(usuario,servicio)
+;
 
 ALTER TABLE CALIFICACION ADD CONSTRAINT RefUSUARIO9 
     FOREIGN KEY (usuario)
@@ -278,5 +287,3 @@ ALTER TABLE SERVICIO ADD CONSTRAINT RefTIPO_SERVICIO6
     FOREIGN KEY (tipo_servicio)
     REFERENCES TIPO_SERVICIO(tipo_servicio)
 ;
-
-

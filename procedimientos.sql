@@ -8,7 +8,7 @@ END $$
 
 CREATE PROCEDURE actualizarUsuario(usuario VARCHAR(20), password VARCHAR(20), nombre VARCHAR(20), apellido VARCHAR(20), rol INT)
 BEGIN
-UPDATE USUARIO SET nombre=nombre, apellido=apellido, rol=rol password=password WHERE usuario=usuario;
+UPDATE USUARIO SET nombre=nombre, apellido=apellido, rol=rol, password=password WHERE usuario=usuario;
 END $$
 
 CREATE PROCEDURE eliminarUsuario(usuario VARCHAR(20))
