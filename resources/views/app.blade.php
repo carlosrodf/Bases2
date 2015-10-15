@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Striped by HTML5 UP</title>
+		<title>OUTGUAT - @yield('title')</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -117,70 +117,14 @@
 				<!-- Logo -->
 					<h1 id="logo"><a href="#">OUTGUAT</a></h1>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<!--
-						<ul>
-							<li class="current"><a href="#">Latest Post</a></li>
-							<li><a href="#">Archives</a></li>
-							<li><a href="#">About Me</a></li>
-							<li><a href="#">Contact Me</a></li>
-						</ul>
-						-->
-						@yield('navigation')
-					</nav>
-
 				<!-- Search -->
 					<section class="box search">
 						<form method="post" action="#">
-							<input type="text" class="text" name="search" placeholder="Search" />
+							<input type="text" class="text" name="search" placeholder="Buscar" />
 						</form>
 					</section>
 
-				<!-- Text -->
-					<section class="box text-style1">
-						<div class="inner">
-							<p>
-								<!--
-								<strong>Striped:</strong> A free and fully responsive HTML5 site
-								template designed by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>
-								-->
-								@yield('text')
-							</p>
-						</div>
-					</section>
-
-				<!-- Recent Posts -->
-					<section class="box recent-posts">
-						<header>
-							<h2>@yield('sidebox1-title')</h2>
-						</header>
-						<!--
-						<ul>
-							<li><a href="#">Lorem ipsum dolor</a></li>
-							<li><a href="#">Feugiat nisl aliquam</a></li>
-							<li><a href="#">Sed dolore magna</a></li>
-							<li><a href="#">Malesuada commodo</a></li>
-							<li><a href="#">Ipsum metus nullam</a></li>
-						</ul>
-						-->
-						@yield('sidebox1-body')
-					</section>
-
-				<!-- Recent Comments -->
-					<section class="box recent-comments">
-						<header>
-							<h2>@yield('sidebox2-title')</h2>
-						</header>
-						<!--
-						<ul>
-							<li>case on <a href="#">Lorem ipsum dolor</a></li>
-							<li>molly on <a href="#">Sed dolore magna</a></li>
-							<li>case on <a href="#">Sed dolore magna</a></li>
-						</ul>
-						-->
-						@yield('sidebox1-body')
-					</section>
+					@yield('sections')
 
 				<!-- Copyright -->
 					<ul id="copyright">

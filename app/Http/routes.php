@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'defaultController@index');
+Route::post('/', 'defaultController@login');
