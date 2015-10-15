@@ -91,4 +91,10 @@ class defaultController extends Controller
         return view('pages.busqueda');
     }
 
+    public function verEstablecimiento($id){
+        $datos = DB::select('select * from ESTABLECIMIENTO where establecimiento = ?;',array($id));
+
+        return view('pages.establecimiento')->with('datos',$datos);
+    }
+
 }
