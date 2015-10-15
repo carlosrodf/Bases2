@@ -1,14 +1,14 @@
 DELIMITER $$
 -- USUARIO
 
-CREATE PROCEDURE crearUsuario(usuario VARCHAR(20), nombre VARCHAR(20), apellido VARCHAR(20), rol INT)
+CREATE PROCEDURE crearUsuario(usuario VARCHAR(20), password VARCHAR(20), nombre VARCHAR(20), apellido VARCHAR(20), rol INT)
 BEGIN
-INSERT INTO USUARIO(usuario,nombre,apellido,rol) VALUES(usuario,nombre,apellido,rol);
+INSERT INTO USUARIO(usuario,password,nombre,apellido,rol) VALUES(usuario,password,nombre,apellido,rol);
 END $$
 
-CREATE PROCEDURE actualizarUsuario(usuario VARCHAR(20), nombre VARCHAR(20), apellido VARCHAR(20), rol INT)
+CREATE PROCEDURE actualizarUsuario(usuario VARCHAR(20), password VARCHAR(20), nombre VARCHAR(20), apellido VARCHAR(20), rol INT)
 BEGIN
-UPDATE USUARIO SET nombre=nombre, apellido=apellido, rol=rol WHERE usuario=usuario;
+UPDATE USUARIO SET nombre=nombre, apellido=apellido, rol=rol password=password WHERE usuario=usuario;
 END $$
 
 CREATE PROCEDURE eliminarUsuario(usuario VARCHAR(20))

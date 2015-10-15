@@ -12,3 +12,8 @@
 */
 
 Route::get('/', 'defaultController@index');
+Route::post('/', 'defaultController@login');
+
+Route::get('/super','defaultController@super');
+Route::get('/admin','defaultController@admin');
+Route::get('/user','defaultController@user');

@@ -178,6 +178,7 @@ CREATE TABLE USUARIO(
     nombre      VARCHAR(20)    NOT NULL,
     apellido    VARCHAR(20),
     rol         INT            NOT NULL,
+    password VARCHAR(20) NOT NULL,
     PRIMARY KEY (usuario)
 )ENGINE=INNODB
 ;
