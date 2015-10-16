@@ -91,4 +91,24 @@ class defaultController extends Controller
         return view('pages.busqueda');
     }
 
+    public function verEstablecimiento($id){
+        if(Request::session()->get('rol',-1) == 2 and Request::session()->get('user','') !== ''){
+            $datos = DB::select('select * from ESTABLECIMIENTO where establecimiento = ?;',array($id));
+            $servicios = DB::select('select * from SERVICIO where establecimiento = ?',array($id));
+            return view('pages.establecimiento',compact('datos','servicios'));
+        }else{
+            return redirect('/');
+        }
+    }
+
+    public function calificarEstablecimiento($id){
+        $servicio = Request::get('id_servicio',-1);
+        DB::statement('call crearCalificacion(?,null,?,?)',array(
+            Request::get('esferas',0),
+            Request::session()->get('user',-1),
+            $servicio
+        ));
+        return redirect('/establecimiento/'.$id);
+    }
+
 }
