@@ -24,6 +24,9 @@ Route::post('/registro','defaultController@registrar');
 Route::get('/busqueda','defaultController@buscar');
 Route::post('/busqueda','defaultController@busqueda');
 
+Route::get('/establecimiento/{id}','defaultController@verEstablecimiento');
+Route::post('/establecimiento/{id}','defaultController@calificarEstablecimiento');
+
 Route::get('/abc_establecimiento','AbcController@establecimiento');
 Route::post('/a_establecimiento','AbcController@crearEstablecimiento');
 Route::post('/b_establecimiento','AbcController@borrarEstablecimiento');
