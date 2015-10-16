@@ -24,6 +24,7 @@ Route::post('/registro','defaultController@registrar');
 Route::get('/busqueda','defaultController@buscar');
 Route::post('/busqueda','defaultController@busqueda');
 
+Route::post('/establecimiento/reservar','defaultController@reservar');
 Route::get('/establecimiento/{id}','defaultController@verEstablecimiento');
 Route::post('/establecimiento/{id}','defaultController@calificarEstablecimiento');
 

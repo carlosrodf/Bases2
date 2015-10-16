@@ -31,6 +31,7 @@
 @stop
 
 @section('body')
+	<hr>
 	<table>
 	<tr><th>Servicio</th><th>Calificacion</th><th>Calificar</th></tr>
 	@foreach ($servicios as $servicio)
@@ -62,6 +63,30 @@
 				{!! Form::submit('Calificar') !!}
 			{!! Form::close() !!}
 		</td>
+		</tr>
+	@endforeach
+	</table>
+	<hr>
+	<h2>Reservaciones</h2>
+	<table>
+	<tr><th>Servicio</th><th>Restantes</th><th>Reservar</th></tr>
+	@foreach ($servicios as $servicio)
+		<tr>
+			<td>{{$servicio->nombre}}</td>
+			<td>{{$servicio->cupo}}</td>
+			<td>
+				{!! Form::open(['url'=>'/establecimiento/reservar']) !!}
+					{!! Form::hidden('id_servicio',$servicio->servicio) !!}
+					{!! Form::hidden('id_est',$datos[0]->establecimiento) !!}
+					{!! Form::hidden('cupo',$servicio->cupo) !!}
+					<input type="date" name="fechar">
+					@if ($servicio->cupo > 0)
+						{!! Form::submit('Reservar') !!}
+					@else
+						<button type="button" disabled>Reservar</button>
+					@endif
+				{!! Form::close() !!}
+			</td>
 		</tr>
 	@endforeach
 	</table>
