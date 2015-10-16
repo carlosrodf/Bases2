@@ -264,7 +264,7 @@ class AbcController extends Controller
         $opciones[$dimension->dimension] = $dimension->nombre;
       }
 
-      $dimensiones = DB::select('call getCategorias()');
+      $categorias = DB::select('call getCategorias()');
       $opciones2 = array();
       foreach ($categorias as $categoria) {
         $opciones2[$categoria->categoria] = $categoria->nombre;
@@ -380,7 +380,7 @@ class AbcController extends Controller
     }
 
     public function actualizarUsuario(){
-          DB::statement('call actualizarUsuario(?,?,?);',array(
+          DB::statement('call actualizarUsuario(?,?,?,?,?);',array(
               Request::get('usuario'),
               Request::get('password'),
               Request::get('nombre'),

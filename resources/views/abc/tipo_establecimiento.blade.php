@@ -52,5 +52,12 @@
 
 @section('nav_items')
 	<li><a href="/">Principal</a></li>
-	<li class="current"><a href="#">Registro</a></li>
+	<li><a href="/abc_establecimiento">Establecimiento</a></li>
+	<li><a href="/abc_tipo_establecimiento">Tipo Establecimiento</a></li>
+	<li><a href="/abc_servicio">Servicio</a></li>
+	<li><a href="/abc_tipo_servicio">Tipo Servicio</a></li>
+	<li><a href="/abc_dimension">Dimension</a></li>
+	<li><a href="/abc_categoria">Categoria</a></li>
+	<li><a href="/abc_caracteristica">Caracteristica</a></li>
+	<li><a href="/abc_usuario">Usuario</a></li>
 @stop

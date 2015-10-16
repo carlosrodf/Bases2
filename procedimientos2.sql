@@ -46,7 +46,7 @@ END $$
 
 CREATE PROCEDURE getUsuarios()
 BEGIN
-SELECT id_usuario, usuario FROM USUARIO;
+SELECT usuario FROM USUARIO;
 END $$
 
 DELIMITER ;
