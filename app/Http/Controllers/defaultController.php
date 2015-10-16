@@ -92,7 +92,7 @@ class defaultController extends Controller
     }
 
     public function verEstablecimiento($id){
-        if(Request::session()->get('rol',-1) >= 0 and Request::session()->get('user','') !== ''){
+        if(Request::session()->get('rol',-1) == 2 and Request::session()->get('user','') !== ''){
             $datos = DB::select('select * from ESTABLECIMIENTO where establecimiento = ?;',array($id));
             $servicios = DB::select('select * from SERVICIO where establecimiento = ?',array($id));
             return view('pages.establecimiento',compact('datos','servicios'));
