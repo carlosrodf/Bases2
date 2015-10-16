@@ -233,12 +233,21 @@ END $$
 
 -- CALIFICACION
 
-CREATE PROCEDURE crearCalificacion(punteo INT, comentario VARCHAR(200), usuario INT, servicio INT)
+CREATE PROCEDURE crearCalificacion(points INT, comentario VARCHAR(200), user VARCHAR(20), service INT)
 BEGIN
-INSERT INTO CALIFICACION(punteo,comentario,usuario,servicio) VALUES(punteo,comentario,usuario,servicio);
+DECLARE last INT DEFAULT 0;
+DECLARE flag INT DEFAULT 0;
+DECLARE promedio INT DEFAULT 0;
+SELECT COUNT(*) FROM CALIFICACION WHERE servicio = service AND usuario = user INTO flag;
+SELECT punteo FROM SERVICIO WHERE servicio = service LIMIT 1 INTO last;
+IF flag > 0 THEN UPDATE CALIFICACION SET punteo = points WHERE servicio = service AND usuario = user;
+ELSE INSERT INTO CALIFICACION(punteo,comentario,usuario,servicio) VALUES(points,comentario,user,service);
+END IF;
+SELECT AVG(punteo) FROM CALIFICACION WHERE servicio = service INTO promedio;
+UPDATE SERVICIO SET punteo = promedio WHERE servicio = service;
 END $$
 
-CREATE PROCEDURE actualizarCalificacion(calificacion INT, punteo INT, comentario VARCHAR(200), usuario INT, servicio INT)
+CREATE PROCEDURE actualizarCalificacion(calificacion INT, punteo INT, comentario VARCHAR(200), usuario VARCHAR(20), servicio INT)
 BEGIN
 UPDATE CALIFICACION SET punteo=punteo, comentario=comentario, usuario=usuario, servicio=servicio WHERE calificacion=calificacion;
 END $$
