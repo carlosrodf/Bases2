@@ -28,3 +28,10 @@ Route::get('/abc_establecimiento','AbcController@establecimiento');
 Route::post('/a_establecimiento','AbcController@crearEstablecimiento');
 Route::post('/b_establecimiento','AbcController@borrarEstablecimiento');
 Route::post('/c_establecimiento','AbcController@actualizarEstablecimiento');
+
+Route::get('/abc_tipo_establecimiento','AbcController@tipoEstablecimiento');
+Route::post('/a_tipo_establecimiento','AbcController@crearTipoEstablecimiento');
+Route::post('/b_tipo_establecimiento','AbcController@borrarTipoEstablecimiento');
+Route::post('/c_tipo_establecimiento','AbcController@actualizarTipoEstablecimiento');
+
+Route::get('/abc_index','AbcController@index');

@@ -1,0 +1,56 @@
+@extends('app')
+
+@section('title')
+	ABC Tipo Establecimiento
+@stop
+
+@section('header')
+	<h2>ABC Tipo Establecimiento</h2>
+  <hr>
+@stop
+
+@section('info')
+	<p></p>
+@stop
+
+@section('body')
+<h3>Creacion de Tipo Establecimiento</h3>
+<hr>
+	{!! Form::open(['url' => 'a_tipo_establecimiento']) !!}
+		{!! Form::label('Nombre:') !!}
+		{!! Form::text('nombre') !!}
+		{!! Form::label('Descripcion:') !!}
+		{!! Form::text('descripcion') !!}
+		{!! Form::submit('Crear') !!}
+	{!! Form::close() !!}
+
+
+	<h3>Eliminacion de Tipo Establecimiento</h3>
+	<hr>
+
+	{!! Form::open(['url' => 'b_tipo_establecimiento']) !!}
+		{!! Form::label('Tipo Establecimiento a borrar:') !!}
+		{!! Form::select('id',$opciones, array_values($opciones)[0]) !!}
+		{!! Form::submit('Borrar') !!}
+	{!! Form::close() !!}
+
+	<h3>Actualizacion de Tipo Establecimiento</h3>
+	<hr>
+	{!! Form::open(['url' => 'c_tipo_establecimiento']) !!}
+		{!! Form::label('Tipo Establecimiento a actualizar:') !!}
+		{!! Form::select('id',$opciones, array_values($opciones)[0]) !!}
+		{!! Form::label('Nombre:') !!}
+		{!! Form::text('nombre') !!}
+		{!! Form::submit('Actualizar') !!}
+	{!! Form::close() !!}
+
+	@if (isset($error))
+		{{ $error }}
+	@endif
+
+@stop
+
+@section('nav_items')
+	<li><a href="/">Principal</a></li>
+	<li class="current"><a href="#">Registro</a></li>
+@stop

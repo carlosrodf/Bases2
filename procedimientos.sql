@@ -66,25 +66,25 @@ END $$
 
 CREATE PROCEDURE actualizarEstablecimiento(id INT, nombre VARCHAR(20), posicion VARCHAR(30), descripcion VARCHAR(200), punteo INT, tipo INT, oficial INT)
 BEGIN
-UPDATE ESTABLECIMIENTO SET nombre=nombre, posicion=posicion, descripcion=descripcion, punteo=punteo, tipo=tipo, oficial=oficial WHERE establecimiento=id;
+UPDATE ESTABLECIMIENTO SET nombre=nombre, posicion=posicion, descripcion=descripcion, punteo=punteo, tipo_establecimiento=tipo, oficial=oficial WHERE establecimiento=id;
 END $$
 
-CREATE PROCEDURE eliminarEstablecimiento(establecimiento INT)
+CREATE PROCEDURE eliminarEstablecimiento(e INT)
 BEGIN
 DECLARE limS INT DEFAULT 0;
 DECLARE j INT DEFAULT 0;
 DECLARE s INT DEFAULT 0;
 DELETE FROM DIMENSION_ESTABLECIMIENTO WHERE establecimiento=e;
-SELECT COUNT(*) FROM SERVICIO WHERE establecimiento=establecimiento INTO limS;
+SELECT COUNT(*) FROM SERVICIO WHERE establecimiento=e INTO limS;
 WHILE j<limS DO
-SELECT servicio FROM SERVICIO WHERE establecimiento=establecimiento ORDER BY servicio LIMIT 1 INTO s;
+SELECT servicio FROM SERVICIO WHERE establecimiento=e ORDER BY servicio LIMIT 1 INTO s;
 DELETE FROM CALIFICACION WHERE servicio=s;
 DELETE FROM RESERVA WHERE servicio=s;
 DELETE FROM DETALLE_SERVICIO WHERE servicio=s;
 DELETE FROM SERVICIO WHERE servicio=s;
 SET j = j + 1;
 END WHILE;
-DELETE FROM ESTABLECIMIENTO WHERE establecimiento=establecimiento;
+DELETE FROM ESTABLECIMIENTO WHERE establecimiento=e;
 END $$
 
 -- DIMENSION
@@ -264,4 +264,11 @@ DIMENSION_ESTABLECIMIENTO DE2 LEFT JOIN DIMENSION D ON DE2.dimension = D.dimensi
 WHERE DE.establecimiento = DE2.establecimiento
 AND D.nombre LIKE CONCAT('%',item,'%');
 END $$
+
+--Procedimientos para los dropdown list
+CREATE PROCEDURE getEstablecimientos(calificacion INT)
+BEGIN
+SELECT tipo_establecimiento, nombre FROM TIPO_ESTABLECIMIENTO;
+END $$
+
 DELIMITER ;
