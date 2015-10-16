@@ -248,7 +248,7 @@ ELSE INSERT INTO CALIFICACION(punteo,comentario,usuario,servicio) VALUES(points,
 END IF;
 SELECT AVG(punteo) FROM CALIFICACION WHERE servicio = service INTO promedio;
 UPDATE SERVICIO SET punteo = promedio WHERE servicio = service;
-SELECT AVG(punteo) FROM SERVICIO WHERE establecimiento = est INTO promedio;
+SELECT AVG(punteo) FROM SERVICIO WHERE establecimiento = est AND punteo > -1 INTO promedio;
 UPDATE ESTABLECIMIENTO SET punteo = promedio WHERE establecimiento = est;
 END $$
 
