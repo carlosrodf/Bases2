@@ -219,6 +219,7 @@ END $$
 CREATE PROCEDURE crearReserva(fech DATETIME, usuari VARCHAR(20), servici INT)
 BEGIN
 INSERT INTO RESERVA(fecha,usuario,servicio) VALUES(fech,usuari,servici);
+UPDATE SERVICIO SET cupo = cupo - 1 WHERE servicio = servici;
 END $$
 
 CREATE PROCEDURE actualizarReserva(reserv INT, fech DATETIME, usuari VARCHAR(20), servici INT)

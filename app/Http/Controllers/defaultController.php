@@ -111,4 +111,16 @@ class defaultController extends Controller
         return redirect('/establecimiento/'.$id);
     }
 
+    public function reservar(){
+        if(Request::get('cupo',-1)>0){
+            $usuario = Request::session()->get('user',-1);
+            $servicio = Request::get('id_servicio',-1);
+            DB::statement('call crearReserva(?,?,?)',array(Request::get('fechar','01/01/01'),
+                $usuario,
+                $servicio
+            ));
+        }
+        return redirect('/establecimiento/'.Request::get('id_est',-1));
+    }
+
 }
