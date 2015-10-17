@@ -222,14 +222,20 @@ INSERT INTO RESERVA(fecha,usuario,servicio) VALUES(fech,usuari,servici);
 UPDATE SERVICIO SET cupo = cupo - 1 WHERE servicio = servici;
 END $$
 
-CREATE PROCEDURE actualizarReserva(reserv INT, fech DATETIME, usuari VARCHAR(20), servici INT)
+CREATE PROCEDURE actualizarReserva(reserv INT, fech DATETIME)
 BEGIN
-UPDATE RESERVA SET fecha=fech, usuario=usuari, servicio=servici WHERE reserva=reserv;
+UPDATE RESERVA SET fecha=fech WHERE reserva=reserv;
 END $$
 
 CREATE PROCEDURE eliminarReserva(reserv INT)
 BEGIN
+DECLARE service INT DEFAULT 0;
+DECLARE cup INT DEFAULT 0;
+SELECT servicio FROM RESERVA WHERE reserva = reserv INTO service;
+SELECT cupo FROM SERVICIO WHERE servicio = service INTO cup;
+SET cup = cup + 1;
 DELETE FROM RESERVA WHERE reserva=reserv;
+UPDATE SERVICIO SET cupo = cup WHERE servicio = service;
 END $$
 
 -- CALIFICACION
@@ -276,6 +282,17 @@ FROM ESTABLECIMIENTO E LEFT JOIN DIMENSION_ESTABLECIMIENTO DE ON E.establecimien
 DIMENSION_ESTABLECIMIENTO DE2 LEFT JOIN DIMENSION D ON DE2.dimension = D.dimension
 WHERE DE.establecimiento = DE2.establecimiento
 AND D.nombre LIKE CONCAT('%',item,'%');
+END $$
+
+-- RESERVAS DE USUARIOS
+
+CREATE PROCEDURE reservasUsuario(user VARCHAR(20))
+BEGIN
+SELECT S.nombre,R.reserva,R.fecha,R.usuario,R.servicio,E.nombre AS establecimiento
+FROM SERVICIO S JOIN RESERVA R ON S.servicio = R.servicio,
+SERVICIO S1 JOIN ESTABLECIMIENTO E ON S1.establecimiento = E.establecimiento
+WHERE S1.servicio = S.servicio
+AND R.usuario = user;
 END $$
 
 -- Procedimientos para los dropdown list
