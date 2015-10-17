@@ -123,4 +123,23 @@ class defaultController extends Controller
         return redirect('/establecimiento/'.Request::get('id_est',-1));
     }
 
+    public function abc_reservas(){
+        $user = Request::session()->get('user',-1);
+        $reservas = DB::select('call reservasUsuario(?)',array($user));
+        return view('pages.reservaciones',compact('reservas'));
+    }
+
+    public function actualizarReserva(){
+        $id = Request::get('id_reserva',-1);
+        $fecha = Request::get('fechar',-1);
+        DB::statement('call actualizarReserva(?,?);',array($id,$fecha));
+        return redirect('/misReservas');
+    }
+
+    public function eliminarReserva(){
+        $id = Request::get('id_reserva',-1);
+        DB::statement('call eliminarReserva(?);',array($id));
+        return redirect('/misReservas');
+    }
+
 }

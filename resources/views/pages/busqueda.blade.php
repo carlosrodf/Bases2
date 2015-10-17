@@ -9,7 +9,7 @@
 @stop
 
 @section('nav_items')
-	<li class="current"><a href="#">Principal</a></li>
+	<li><a href="/">Principal</a></li>
 	<li><a href="/registro">Registro</a></li>
 @stop
 

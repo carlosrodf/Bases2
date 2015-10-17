@@ -28,6 +28,10 @@ Route::post('/establecimiento/reservar','defaultController@reservar');
 Route::get('/establecimiento/{id}','defaultController@verEstablecimiento');
 Route::post('/establecimiento/{id}','defaultController@calificarEstablecimiento');
 
+Route::get('/misReservas','defaultController@abc_reservas');
+Route::post('/misReservas','defaultController@actualizarReserva');
+Route::post('/eliminarReserva','defaultController@eliminarReserva');
+
 Route::get('/abc_establecimiento','AbcController@establecimiento');
 Route::post('/a_establecimiento','AbcController@crearEstablecimiento');
 Route::post('/b_establecimiento','AbcController@borrarEstablecimiento');
