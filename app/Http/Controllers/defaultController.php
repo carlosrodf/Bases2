@@ -123,4 +123,8 @@ class defaultController extends Controller
         return redirect('/establecimiento/'.Request::get('id_est',-1));
     }
 
+    public function abc_reservas(){
+        return view('pages.reservaciones');
+    }
+
 }
