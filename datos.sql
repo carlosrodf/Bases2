@@ -1,4 +1,3 @@
-DELIMITER $$
 CALL crearUsuario('super1','admin','SUPER1','super',0);
 CALL crearUsuario('super2','admin','SUPER2','super',0);
 CALL crearUsuario('super3','admin','SUPER3','super',0);
@@ -249,4 +248,3 @@ CALL crearDetalleServicio(27,8);
 CALL crearDetalleServicio(28,9);
 CALL crearDetalleServicio(29,10);
 CALL crearDetalleServicio(30,11);
-DELIMITER ;
