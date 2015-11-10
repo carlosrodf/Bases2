@@ -103,6 +103,7 @@ CREATE TABLE ESTABLECIMIENTO(
     punteo                  INT,
     tipo_establecimiento    INT             NOT NULL,
     oficial INT NOT NULL,
+		usuario INT NOT NULL, 
     PRIMARY KEY (establecimiento)
 )ENGINE=INNODB
 ;
@@ -258,6 +259,10 @@ ALTER TABLE ESTABLECIMIENTO ADD CONSTRAINT RefTIPO_ESTABLECIMIENTO1
     REFERENCES TIPO_ESTABLECIMIENTO(tipo_establecimiento)
 ;
 
+ALTER TABLE ESTABLECIMIENTO ADD CONSTRAINT RefUSUARIO 
+    FOREIGN KEY (usuario)
+    REFERENCES USUARIO(usuario)
+;
 
 -- 
 -- TABLE: RESERVA 
