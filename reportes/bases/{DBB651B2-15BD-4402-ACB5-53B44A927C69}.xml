@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<configuration date="2015/11/10" author="e.World Technology Ltd.">
+<project id="{DBB651B2-15BD-4402-ACB5-53B44A927C69}" file="C:\Users\bases\Documents\PHPReportMaker\bases.prp" name="bases" product="PHPReportMaker" version="8.1" datetime="2015/11/10 19:08:24" languagefolder="phprptlang" userlevel="0,&quot;Default&quot;,0">
+<table id="CALIFICACION" name="CALIFICACION" caption="CALIFICACION" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="CARACTERISTICA" name="CARACTERISTICA" caption="CARACTERISTICA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="CATEGORIA" name="CATEGORIA" caption="CATEGORIA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="DETALLE_SERVICIO" name="DETALLE_SERVICIO" caption="DETALLE SERVICIO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="DIMENSION" name="DIMENSION" caption="DIMENSION" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="DIMENSION_ESTABLECIMIENTO" name="DIMENSION_ESTABLECIMIENTO" caption="DIMENSION ESTABLECIMIENTO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="ESTABLECIMIENTO" name="ESTABLECIMIENTO" caption="ESTABLECIMIENTO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="RESERVA" name="RESERVA" caption="RESERVA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="SERVICIO" name="SERVICIO" caption="SERVICIO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="TIPO_ESTABLECIMIENTO" name="TIPO_ESTABLECIMIENTO" caption="TIPO ESTABLECIMIENTO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="TIPO_SERVICIO" name="TIPO_SERVICIO" caption="TIPO SERVICIO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="USUARIO" name="USUARIO" caption="USUARIO" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="reporte1view" name="reporte1view" caption="reporte 1view" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="reporte2view" name="reporte2view" caption="reporte 2view" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="reporte3view" name="reporte3view" caption="reporte 3view" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Report2" name="Report2" caption="Report 2" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Report3" name="Report3" caption="Report 3" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="reporte5view" name="reporte5view" caption="reporte 5view" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Report5" name="Report5" caption="Report 5" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="BITACORA" name="BITACORA" caption="BITACORA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="reporte4view" name="reporte4view" caption="reporte 4view" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Report4" name="Report4" caption="Report 4" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>
