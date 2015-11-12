@@ -382,4 +382,32 @@ BEGIN
 SELECT usuario FROM USUARIO;
 END $$
 
+CREATE PROCEDURE getEstablecimientosOficiales()
+BEGIN
+SELECT establecimiento, nombre FROM ESTABLECIMIENTO
+WHERE oficial = 1;
+END $$
+
+CREATE PROCEDURE getEstablecimientosNoOficiales()
+BEGIN
+SELECT establecimiento, nombre FROM ESTABLECIMIENTO
+WHERE oficial <> 1;
+END $$
+
+CREATE PROCEDURE merge(oficial INT, no_oficial INT)
+BEGIN
+INSERT INTO OTRO_NOMBRE(oficial, no_oficial) VALUES(oficial, no_oficial);
+DECLARE punteoNuevo INT DEFAULT 0;
+DECLARE punteoViejo INT DEFAULT 0;
+DECLARE n INT DEFAULT 0;
+DECLARE valor INT DEFAULT 0;
+DECLARE promedio INT DEFAULT 0;
+SELECT E.punteo FROM ESTABLECIMIENTO E WHERE E.establecimiento = no_oficial LIMIT 1 INTO punteoNuevo;
+SELECT E.punteo FROM ESTABLECIMIENTO E WHERE E.establecimiento = oficial LIMIT 1 INTO punteoViejo;
+SELECT COUNT(*) FROM CALIFICACION c, SERVICIO s WHERE c.servicio = s.servicio AND s.establecimiento = oficial INTO n;
+SET promedio = (punteoViejo * n + punteoNuevo) / (n + 1);
+UPDATE ESTABLECIMIENTO SET punteo = promedio WHERE establecimiento = oficial;
+INSERT INTO BITACORA(,accion,mensaje) VALUES(NOW(),'Merge',CONCAT('Se realizo un merge de establecimientos'));
+END $$
+
 DELIMITER ;
