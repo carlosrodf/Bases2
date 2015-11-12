@@ -440,7 +440,7 @@ CREATE TABLE REPORTE(
     dimensionEstablecimiento_inserciones INT NOT NULL,
     dimensionEstablecimiento_actualizaciones INT NOT NULL,
     dimensionEstablecimiento_eliminaciones INT NOT NULL,
-    establecimeiento_total INT NOT NULL,
+    establecimiento_total INT NOT NULL,
     establecimiento_inserciones INT NOT NULL,
     establecimiento_actualizaciones INT NOT NULL,
     establecimiento_eliminaciones INT NOT NULL,

@@ -447,4 +447,31 @@ DELETE FROM ESTABLECIMIENTO WHERE establecimiento = no_oficial;
 INSERT INTO BITACORA(fecha,accion,mensaje) VALUES(NOW(),'Merge',CONCAT('Se realizo un merge de establecimientos'));
 END $$
 
+CREATE PROCEDURE llenarReporte()
+BEGIN
+DECLARE i INT DEFAULT 0;
+INSERT INTO REPORTE VALUES(0,NOW(),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+SELECT id FROM REPORTE ORDER BY id DESC LIMIT 1 INTO i;
+UPDATE REPORTE SET calificacion_total = (SELECT COUNT(*) FROM CALIFICACION), calificacion_inserciones = (SELECT calificacion_inserciones FROM TEMPORAL LIMIT 1), calificacion_actualizaciones = (SELECT calificacion_actualizaciones FROM TEMPORAL LIMIT 1), calificacion_eliminaciones = (SELECT calificacion_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET caracteristica_total = (SELECT COUNT(*) FROM CARACTERISTICA), caracteristica_inserciones = (SELECT caracteristica_inserciones FROM TEMPORAL LIMIT 1), caracteristica_actualizaciones = (SELECT caracteristica_actualizaciones FROM TEMPORAL LIMIT 1), caracteristica_eliminaciones = (SELECT caracteristica_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET categoria_total = (SELECT COUNT(*) FROM CATEGORIA), categoria_inserciones = (SELECT categoria_inserciones FROM TEMPORAL LIMIT 1), categoria_actualizaciones = (SELECT categoria_actualizaciones FROM TEMPORAL LIMIT 1), categoria_eliminaciones = (SELECT categoria_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET detalleServicio_total = (SELECT COUNT(*) FROM DETALLE_SERVICIO), detalleServicio_inserciones = (SELECT detalleServicio_inserciones FROM TEMPORAL LIMIT 1), detalleServicio_actualizaciones = (SELECT detalleServicio_actualizaciones FROM TEMPORAL LIMIT 1), detalleServicio_eliminaciones = (SELECT detalleServicio_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET dimension_total = (SELECT COUNT(*) FROM DIMENSION), dimension_inserciones = (SELECT dimension_inserciones FROM TEMPORAL LIMIT 1), dimension_actualizaciones = (SELECT dimension_actualizaciones FROM TEMPORAL LIMIT 1), dimension_eliminaciones = (SELECT dimension_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET dimensionEstablecimiento_total = (SELECT COUNT(*) FROM DIMENSION_ESTABLECIMIENTO), dimensionEstablecimiento_inserciones = (SELECT dimensionEstablecimiento_inserciones FROM TEMPORAL LIMIT 1), dimensionEstablecimiento_actualizaciones = (SELECT dimensionEstablecimiento_actualizaciones FROM TEMPORAL LIMIT 1), dimensionEstablecimiento_eliminaciones = (SELECT dimensionEstablecimiento_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET establecimiento_total = (SELECT COUNT(*) FROM ESTABLECIMIENTO), establecimiento_inserciones = (SELECT establecimiento_inserciones FROM TEMPORAL LIMIT 1), establecimiento_actualizaciones = (SELECT establecimiento_actualizaciones FROM TEMPORAL LIMIT 1), establecimiento_eliminaciones = (SELECT establecimiento_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET reserva_total = (SELECT COUNT(*) FROM RESERVA), reserva_inserciones = (SELECT reserva_inserciones FROM TEMPORAL LIMIT 1), reserva_actualizaciones = (SELECT reserva_actualizaciones FROM TEMPORAL LIMIT 1), reserva_eliminaciones = (SELECT reserva_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET servicio_total = (SELECT COUNT(*) FROM SERVICIO), servicio_inserciones = (SELECT servicio_inserciones FROM TEMPORAL LIMIT 1), servicio_actualizaciones = (SELECT servicio_actualizaciones FROM TEMPORAL LIMIT 1), servicio_eliminaciones = (SELECT servicio_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET tipoEstablecimiento_total = (SELECT COUNT(*) FROM TIPO_ESTABLECIMIENTO), tipoEstablecimiento_inserciones = (SELECT tipoEstablecimiento_inserciones FROM TEMPORAL LIMIT 1), tipoEstablecimiento_actualizaciones = (SELECT tipoEstablecimiento_actualizaciones FROM TEMPORAL LIMIT 1), tipoEstablecimiento_eliminaciones = (SELECT tipoEstablecimiento_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET tipoServicio_total = (SELECT COUNT(*) FROM TIPO_SERVICIO), tipoServicio_inserciones = (SELECT tipoServicio_inserciones FROM TEMPORAL LIMIT 1), tipoServicio_actualizaciones = (SELECT tipoServicio_actualizaciones FROM TEMPORAL LIMIT 1), tipoServicio_eliminaciones = (SELECT tipoServicio_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+UPDATE REPORTE SET usuario_total = (SELECT COUNT(*) FROM USUARIO), usuario_inserciones = (SELECT usuario_inserciones FROM TEMPORAL LIMIT 1), usuario_actualizaciones = (SELECT usuario_actualizaciones FROM TEMPORAL LIMIT 1), usuario_eliminaciones = (SELECT usuario_eliminaciones FROM TEMPORAL LIMIT 1) WHERE id = i;
+DELETE FROM TEMPORAL;
+INSERT INTO TEMPORAL VALUES(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+END $$
+
+CREATE EVENT tareaProgramada5Min
+ON SCHEDULE EVERY 5 MINUTE
+DO BEGIN
+CALL llenarReporte();
+END $$
+
 DELIMITER ;
