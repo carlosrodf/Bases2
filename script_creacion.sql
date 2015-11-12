@@ -378,4 +378,4 @@ from (`USUARIO`
 left join `ESTABLECIMIENTO` on((`USUARIO`.`id_usuario` = `ESTABLECIMIENTO`.`usuario`))) ;
 
 
-
+ALTER TABLE ESTABLECIMIENTO MODIFY nombre VARCHAR(255); 
