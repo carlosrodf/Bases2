@@ -321,19 +321,22 @@ ALTER TABLE BITACORA ADD CONSTRAINT RefBITACORA2
 CREATE ALGORITHM=UNDEFINED DEFINER=`remoteroot`@`%` 
 SQL SECURITY DEFINER 
 VIEW `reporte2view` AS 
-select `TIPO_ESTABLECIMIENTO`.`nombre` AS `Tipo`,
-`ESTABLECIMIENTO`.`nombre` AS `Establecimiento`,
-`DIMENSION`.`nombre` AS `Dimension`,
-`CATEGORIA`.`nombre` AS `Categoria`,
-`SERVICIO`.`nombre` AS `Servicio`,avg(`CALIFICACION`.`punteo`) AS `Calificacion` 
-from ((((((`ESTABLECIMIENTO` 
-join `TIPO_ESTABLECIMIENTO` on((`TIPO_ESTABLECIMIENTO`.`tipo_establecimiento` = `ESTABLECIMIENTO`.`tipo_establecimiento`))) 
-join `DIMENSION_ESTABLECIMIENTO` on((`DIMENSION_ESTABLECIMIENTO`.`establecimiento` = `ESTABLECIMIENTO`.`establecimiento`))) 
-join `DIMENSION` on((`DIMENSION_ESTABLECIMIENTO`.`dimension` = `DIMENSION`.`dimension`))) 
-join `SERVICIO` on((`ESTABLECIMIENTO`.`establecimiento` = `SERVICIO`.`establecimiento`))) 
-join `CALIFICACION` on((`SERVICIO`.`servicio` = `CALIFICACION`.`servicio`))) 
-join `CATEGORIA` on((`DIMENSION`.`dimension` = `CATEGORIA`.`dimension`))) 
-group by `TIPO_ESTABLECIMIENTO`.`nombre`,`ESTABLECIMIENTO`.`nombre`,`DIMENSION`.`nombre`,`CATEGORIA`.`nombre`,`SERVICIO`.`nombre` ;
+SELECT 
+        `TIPO_ESTABLECIMIENTO`.`nombre` AS `Tipo`,
+        `ESTABLECIMIENTO`.`nombre` AS `Establecimiento`,
+        `DIMENSION`.`nombre` AS `Dimension`,
+        `CATEGORIA`.`nombre` AS `Categoria`,
+        `SERVICIO`.`nombre` AS `Servicio`,
+        AVG(`CALIFICACION`.`punteo`) AS `Calificacion`
+    FROM
+        ((((((`ESTABLECIMIENTO`
+        JOIN `TIPO_ESTABLECIMIENTO` ON ((`TIPO_ESTABLECIMIENTO`.`tipo_establecimiento` = `ESTABLECIMIENTO`.`tipo_establecimiento`)))
+        LEFT JOIN `DIMENSION_ESTABLECIMIENTO` ON ((`DIMENSION_ESTABLECIMIENTO`.`establecimiento` = `ESTABLECIMIENTO`.`establecimiento`)))
+        LEFT JOIN `DIMENSION` ON ((`DIMENSION_ESTABLECIMIENTO`.`dimension` = `DIMENSION`.`dimension`)))
+        LEFT JOIN `SERVICIO` ON ((`ESTABLECIMIENTO`.`establecimiento` = `SERVICIO`.`establecimiento`)))
+        LEFT JOIN `CALIFICACION` ON ((`SERVICIO`.`servicio` = `CALIFICACION`.`servicio`)))
+        LEFT JOIN `CATEGORIA` ON ((`DIMENSION`.`dimension` = `CATEGORIA`.`dimension`)))
+    GROUP BY `TIPO_ESTABLECIMIENTO`.`nombre` , `ESTABLECIMIENTO`.`nombre` , `DIMENSION`.`nombre` , `CATEGORIA`.`nombre` , `SERVICIO`.`nombre`;
 
 CREATE ALGORITHM=UNDEFINED 
 DEFINER=`remoteroot`@`%` 
