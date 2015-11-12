@@ -117,9 +117,10 @@ CREATE TABLE ESTABLECIMIENTO(
 --
 
 CREATE TABLE OTRO_NOMBRE(
-    oficial     INT     NOT NULL,
-    no_oficial  INT     NOT NULL,
-    PRIMARY KEY (oficial, no_oficial)
+    no_oficial  INT		AUTO_INCREMENT,
+    oficial     INT     	NOT NULL,
+    alias       VARCHAR(20)     NOT NULL,
+    PRIMARY KEY (no_oficial)
 )ENGINE=INNODB
 ;
 
@@ -286,11 +287,6 @@ ALTER TABLE ESTABLECIMIENTO ADD CONSTRAINT RefUSUARIO
 
 ALTER TABLE OTRO_NOMBRE ADD CONSTRAINT Ref1 
     FOREIGN KEY (oficial)
-    REFERENCES ESTABLECIMIENTO(establecimiento)
-;
-
-ALTER TABLE OTRO_NOMBRE ADD CONSTRAINT Ref2 
-    FOREIGN KEY (no_oficial)
     REFERENCES ESTABLECIMIENTO(establecimiento)
 ;
 
