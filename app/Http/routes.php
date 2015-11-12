@@ -73,3 +73,7 @@ Route::post('/b_usuario','AbcController@borrarUsuario');
 Route::post('/c_usuario','AbcController@actualizarUsuario');
 
 Route::get('/abc_index','AbcController@index');
+
+Route::get('/merge','AbcController@merge');
+Route::get('/hacer_merge','AbcController@hacerMerge');
+
