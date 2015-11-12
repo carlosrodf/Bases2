@@ -37,10 +37,10 @@ define("EWR_TOKEN_NAME", "token", TRUE);
 define("EWR_SESSION_TOKEN", EWR_PROJECT_NAME . "_Token", TRUE);
 
 // Database connection
-define("EWR_CONN_HOST", '192.168.1.57', TRUE);
+define("EWR_CONN_HOST", 'localhost', TRUE);
 define("EWR_CONN_PORT", 3306, TRUE);
-define("EWR_CONN_USER", 'remoteroot', TRUE);
-define("EWR_CONN_PASS", 'remote', TRUE);
+define("EWR_CONN_USER", 'root', TRUE);
+define("EWR_CONN_PASS", 'admin', TRUE);
 define("EWR_CONN_DB", 'proyecto', TRUE);
 define("EWR_CONN_SCHEMA", '', TRUE);
 
