@@ -416,10 +416,6 @@ ALTER TABLE ESTABLECIMIENTO MODIFY nombre VARCHAR(255);
 CREATE TABLE REPORTE(
     id INT AUTO_INCREMENT,
     fecha DATETIME NOT NULL,
-    bitacora_total INT NOT NULL,
-    bitacora_inserciones INT NOT NULL,
-    bitacora_actualizaciones INT NOT NULL,
-    bitacora_eliminaciones INT NOT NULL,
     calificacion_total INT NOT NULL,
     calificacion_inserciones INT NOT NULL,
     calificacion_actualizaciones INT NOT NULL,
@@ -471,3 +467,48 @@ CREATE TABLE REPORTE(
     PRIMARY KEY (id)
 )ENGINE=INNODB
 ;
+
+CREATE TABLE TEMPORAL(
+    id INT AUTO_INCREMENT,
+    calificacion_inserciones INT NOT NULL,
+    calificacion_actualizaciones INT NOT NULL,
+    calificacion_eliminaciones INT NOT NULL,
+    caracteristica_inserciones INT NOT NULL,
+    caracteristica_actualizaciones INT NOT NULL,
+    caracteristica_eliminaciones INT NOT NULL,
+    categoria_inserciones INT NOT NULL,
+    categoria_actualizaciones INT NOT NULL,
+    categoria_eliminaciones INT NOT NULL,
+    detalleServicio_inserciones INT NOT NULL,
+    detalleServicio_actualizaciones INT NOT NULL,
+    detalleServicio_eliminaciones INT NOT NULL,
+    dimension_inserciones INT NOT NULL,
+    dimension_actualizaciones INT NOT NULL,
+    dimension_eliminaciones INT NOT NULL,
+    dimensionEstablecimiento_inserciones INT NOT NULL,
+    dimensionEstablecimiento_actualizaciones INT NOT NULL,
+    dimensionEstablecimiento_eliminaciones INT NOT NULL,
+    establecimiento_inserciones INT NOT NULL,
+    establecimiento_actualizaciones INT NOT NULL,
+    establecimiento_eliminaciones INT NOT NULL,
+    reserva_inserciones INT NOT NULL,
+    reserva_actualizaciones INT NOT NULL,
+    reserva_eliminaciones INT NOT NULL,
+    servicio_inserciones INT NOT NULL,
+    servicio_actualizaciones INT NOT NULL,
+    servicio_eliminaciones INT NOT NULL,
+    tipoEstablecimiento_inserciones INT NOT NULL,
+    tipoEstablecimiento_actualizaciones INT NOT NULL,
+    tipoEstablecimiento_eliminaciones INT NOT NULL,
+    tipoServicio_inserciones INT NOT NULL,
+    tipoServicio_actualizaciones INT NOT NULL,
+    tipoServicio_eliminaciones INT NOT NULL,
+    usuario_inserciones INT NOT NULL,
+    usuario_actualizaciones INT NOT NULL,
+    usuario_eliminaciones INT NOT NULL,
+    PRIMARY KEY (id)
+)ENGINE=INNODB
+;
+
+INSERT INTO REPORTE VALUES(0,NOW(),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+INSERT INTO TEMPORAL VALUES(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
