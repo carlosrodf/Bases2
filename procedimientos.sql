@@ -401,12 +401,15 @@ DECLARE punteoViejo INT DEFAULT 0;
 DECLARE n INT DEFAULT 0;
 DECLARE valor INT DEFAULT 0;
 DECLARE promedio INT DEFAULT 0;
-INSERT INTO OTRO_NOMBRE(oficial, no_oficial) VALUES(oficial, no_oficial);
+DECLARE nombre VARCHAR(20);
+SELECT E.nombre FROM ESTABLECIMIENTO E WHERE E.establecimiento = no_oficial LIMIT 1 INTO nombre;
+INSERT INTO OTRO_NOMBRE(oficial, alias) VALUES(oficial, nombre);
 SELECT E.punteo FROM ESTABLECIMIENTO E WHERE E.establecimiento = no_oficial LIMIT 1 INTO punteoNuevo;
 SELECT E.punteo FROM ESTABLECIMIENTO E WHERE E.establecimiento = oficial LIMIT 1 INTO punteoViejo;
 SELECT COUNT(*) FROM CALIFICACION c, SERVICIO s WHERE c.servicio = s.servicio AND s.establecimiento = oficial INTO n;
 SET promedio = (punteoViejo * n + punteoNuevo) / (n + 1);
 UPDATE ESTABLECIMIENTO SET punteo = promedio WHERE establecimiento = oficial;
+DELETE FROM ESTABLECIMIENTO WHERE establecimiento = no_oficial;
 INSERT INTO BITACORA(fecha,accion,mensaje) VALUES(NOW(),'Merge',CONCAT('Se realizo un merge de establecimientos'));
 END $$
 
