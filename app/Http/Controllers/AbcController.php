@@ -14,7 +14,33 @@ class AbcController extends Controller
       return view('abc.abc_index');
     }
 
-      //ABC ESTABLECIMIENTO
+    //MERGE
+
+    public function merge(){
+      $establecimientos = DB::select('call getEstablecimientosOficiales()');
+      $opciones = array();
+      foreach ($establecimientos as $establecimiento) {
+        $opciones[$establecimiento->establecimiento] = $establecimiento->nombre;
+      }
+
+      $establecimientos = DB::select('call getEstablecimientosNoOficiales()');
+      $opciones2 = array();
+      foreach ($establecimientos as $establecimiento) {
+        $opciones2[$establecimiento->establecimiento] = $establecimiento->nombre;
+      }
+
+      return view('abc.merge',array('opciones' => $opciones, 'opciones2' => $opciones2));
+    }     
+
+    public function hacerMerge(){
+          DB::statement('call merge(?,?);',array(
+              Request::get('oficial'),
+              Request::get('no_oficial')
+          ));
+          return redirect('/abc_index');
+    }
+
+    //ABC ESTABLECIMIENTO
 
     public function establecimiento(){
       $tipos_establecimiento = DB::select('call getTiposEstablecimiento()');

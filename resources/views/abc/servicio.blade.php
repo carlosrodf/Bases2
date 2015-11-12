@@ -72,4 +72,5 @@
 	<li><a href="/abc_categoria">Categoria</a></li>
 	<li><a href="/abc_caracteristica">Caracteristica</a></li>
 	<li><a href="/abc_usuario">Usuario</a></li>
+	<li><a href="/merge">Merge</a></li>
 	@stop

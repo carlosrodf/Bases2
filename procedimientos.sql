@@ -382,4 +382,22 @@ BEGIN
 SELECT usuario FROM USUARIO;
 END $$
 
+CREATE PROCEDURE getEstablecimientosOficiales()
+BEGIN
+SELECT establecimiento, nombre FROM ESTABLECIMIENTO
+WHERE oficial = 1;
+END $$
+
+CREATE PROCEDURE getEstablecimientosNoOficiales()
+BEGIN
+SELECT establecimiento, nombre FROM ESTABLECIMIENTO
+WHERE oficial <> 1;
+END $$
+
+CREATE PROCEDURE merge(oficial INT, no_oficial INT)
+BEGIN
+INSERT INTO OTRO_NOMBRE(oficial, no_oficial) VALUES(oficial, no_oficial);
+INSERT INTO BITACORA(,accion,mensaje) VALUES(NOW(),'Merge',CONCAT('Se realizo un merge de establecimientos'));
+END $$
+
 DELIMITER ;
