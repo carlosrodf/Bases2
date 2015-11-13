@@ -45,7 +45,7 @@ CREATE TABLE GRUPO2TEMP(
 	comentario_Fid_establecimiento_servicio INT
 );
 
-LOAD DATA LOCAL INFILE '/media/kevin/4712A7D769A4B1CC/Dropbox/usac/8voSemestre/bases2/BD2-20015-S2/ArchivosBases2/GRUPO2reporte.csv' 
+LOAD DATA LOCAL INFILE '/home/carlosrodf/Bases2/GRUPO2reporte.csv' 
 INTO TABLE GRUPO2TEMP 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
