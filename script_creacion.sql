@@ -100,7 +100,7 @@ CREATE TABLE DIMENSION_ESTABLECIMIENTO(
 
 CREATE TABLE ESTABLECIMIENTO(
     establecimiento         INT             AUTO_INCREMENT,
-    nombre                  VARCHAR(20)     NOT NULL,
+    nombre                  VARCHAR(100)     NOT NULL,
     posicion                VARCHAR(30),
     descripcion             VARCHAR(200),
     punteo                  INT,
