@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" standalone="yes"?>
-<ew-language date="2015/11/10" version="8.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+<ew-language date="2015/11/12" version="8.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
 	<locale>
 		<phrase id="locale" value=""/><!-- *** system locale for this language -->
 		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
@@ -231,6 +231,16 @@
 		<phrase id="thisyear" value="This year"/>
 	</global>
 	<project><phrase id="footertext" value="&amp;copy;2015 e.World Technology Ltd. All rights reserved."/>
+<menu id="23"><phrase id="menutext" value="GRUPO2TEMP"/>
+</menu>
+<menu id="24"><phrase id="menutext" value="OTRO NOMBRE"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="REPORTE"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="TEMPORAL"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="jobview"/>
+</menu>
 <menu id="16"><phrase id="menutext" value="Report 2"/>
 </menu>
 <menu id="17"><phrase id="menutext" value="Report 3"/>
@@ -238,6 +248,8 @@
 <menu id="22"><phrase id="menutext" value="Report 4"/>
 </menu>
 <menu id="19"><phrase id="menutext" value="Report 5"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="Report 6"/>
 </menu>
 <menu id="1"><phrase id="menutext" value="CALIFICACION"/>
 </menu>
@@ -262,8 +274,6 @@
 <menu id="11"><phrase id="menutext" value="TIPO SERVICIO"/>
 </menu>
 <menu id="12"><phrase id="menutext" value="USUARIO"/>
-</menu>
-<menu id="13"><phrase id="menutext" value="reporte 1view"/>
 </menu>
 <menu id="14"><phrase id="menutext" value="reporte 2view"/>
 </menu>
@@ -362,6 +372,10 @@
 </field>
 <field id="nombre"><phrase id="fldcaption" value="nombre"/>
 </field>
+<field id="oficial"><phrase id="fldcaption" value="oficial"/>
+</field>
+<field id="no_oficial"><phrase id="fldcaption" value="no oficial"/>
+</field>
 </table>
 <table id="tipo_establecimiento"><phrase id="tblcaption" value="TIPO ESTABLECIMIENTO"/>
 <field id="tipo_establecimiento"><phrase id="fldcaption" value="tipo establecimiento"/>
@@ -391,14 +405,6 @@
 <field id="rol"><phrase id="fldcaption" value="rol"/>
 </field>
 <field id="password"><phrase id="fldcaption" value="password"/>
-</field>
-</table>
-<table id="reporte1view"><phrase id="tblcaption" value="reporte 1view"/>
-<field id="usuario"><phrase id="fldcaption" value="Usuario"/>
-</field>
-<field id="categoria"><phrase id="fldcaption" value="categoria"/>
-</field>
-<field id="establecimiento"><phrase id="fldcaption" value="Establecimiento"/>
 </field>
 </table>
 <table id="reporte2view"><phrase id="tblcaption" value="reporte 2view"/>
@@ -517,6 +523,302 @@
 <field id="fecha"><phrase id="fldcaption" value="fecha"/>
 </field>
 <field id="mensaje"><phrase id="fldcaption" value="mensaje"/>
+</field>
+</table>
+<table id="grupo2temp"><phrase id="tblcaption" value="GRUPO2TEMP"/>
+<field id="establecimiento_id_establecimiento"><phrase id="fldcaption" value="establecimiento id establecimiento"/>
+</field>
+<field id="establecimiento_nombre"><phrase id="fldcaption" value="establecimiento nombre"/>
+</field>
+<field id="establecimiento_direccion"><phrase id="fldcaption" value="establecimiento direccion"/>
+</field>
+<field id="establecimiento_tipo"><phrase id="fldcaption" value="establecimiento tipo"/>
+</field>
+<field id="establecimiento_longitud"><phrase id="fldcaption" value="establecimiento longitud"/>
+</field>
+<field id="establecimiento_latitud"><phrase id="fldcaption" value="establecimiento latitud"/>
+</field>
+<field id="establecimiento_oficial"><phrase id="fldcaption" value="establecimiento oficial"/>
+</field>
+<field id="establecimiento_calificacion_general"><phrase id="fldcaption" value="establecimiento calificacion general"/>
+</field>
+<field id="establecimiento_dimension_id_establecimiento"><phrase id="fldcaption" value="establecimiento dimension id establecimiento"/>
+</field>
+<field id="establecimiento_dimension_id_dimension"><phrase id="fldcaption" value="establecimiento dimension id dimension"/>
+</field>
+<field id="establecimiento_dimension_id_categoria"><phrase id="fldcaption" value="establecimiento dimension id categoria"/>
+</field>
+<field id="categoria_id_categoria"><phrase id="fldcaption" value="categoria id categoria"/>
+</field>
+<field id="categoria_nombre"><phrase id="fldcaption" value="categoria nombre"/>
+</field>
+<field id="categoria_descripcion"><phrase id="fldcaption" value="categoria descripcion"/>
+</field>
+<field id="servicio_id_servicio"><phrase id="fldcaption" value="servicio id servicio"/>
+</field>
+<field id="servicio_nombre"><phrase id="fldcaption" value="servicio nombre"/>
+</field>
+<field id="servicio_descripcion"><phrase id="fldcaption" value="servicio descripcion"/>
+</field>
+<field id="caracteristica_id_caracteristica"><phrase id="fldcaption" value="caracteristica id caracteristica"/>
+</field>
+<field id="caracteristica_nombre"><phrase id="fldcaption" value="caracteristica nombre"/>
+</field>
+<field id="caracteristica_valor"><phrase id="fldcaption" value="caracteristica valor"/>
+</field>
+<field id="caracteristica_fid_servicio"><phrase id="fldcaption" value="caracteristica Fid servicio"/>
+</field>
+<field id="establecimiento_servicio_id_establecimiento_servicio"><phrase id="fldcaption" value="establecimiento servicio id establecimiento servicio"/>
+</field>
+<field id="establecimiento_servicio_fid_establecimiento"><phrase id="fldcaption" value="establecimiento servicio Fid establecimiento"/>
+</field>
+<field id="establecimiento_servicio_fid_servicio"><phrase id="fldcaption" value="establecimiento servicio Fid servicio"/>
+</field>
+<field id="usuario_id_usuario"><phrase id="fldcaption" value="usuario id usuario"/>
+</field>
+<field id="usuario_nombre"><phrase id="fldcaption" value="usuario nombre"/>
+</field>
+<field id="usuario_correo"><phrase id="fldcaption" value="usuario correo"/>
+</field>
+<field id="usuario_telefono"><phrase id="fldcaption" value="usuario telefono"/>
+</field>
+<field id="usuario_rol"><phrase id="fldcaption" value="usuario rol"/>
+</field>
+<field id="usuario_id_establecimiento"><phrase id="fldcaption" value="usuario id establecimiento"/>
+</field>
+<field id="usuario_password"><phrase id="fldcaption" value="usuario password"/>
+</field>
+<field id="prereserva_id_prereserva"><phrase id="fldcaption" value="prereserva id prereserva"/>
+</field>
+<field id="prereserva_horayfecha"><phrase id="fldcaption" value="prereserva horayfecha"/>
+</field>
+<field id="prereserva_cantpersonas"><phrase id="fldcaption" value="prereserva cantpersonas"/>
+</field>
+<field id="prereserva_id_establecimiento_servicio"><phrase id="fldcaption" value="prereserva id establecimiento servicio"/>
+</field>
+<field id="prereserva_id_usuario"><phrase id="fldcaption" value="prereserva id usuario"/>
+</field>
+<field id="comentario_id_comentario"><phrase id="fldcaption" value="comentario id comentario"/>
+</field>
+<field id="comentario_contenido"><phrase id="fldcaption" value="comentario contenido"/>
+</field>
+<field id="comentario_calificacion"><phrase id="fldcaption" value="comentario calificacion"/>
+</field>
+<field id="comentario_fid_establecimiento_servicio"><phrase id="fldcaption" value="comentario Fid establecimiento servicio"/>
+</field>
+</table>
+<table id="otro_nombre"><phrase id="tblcaption" value="OTRO NOMBRE"/>
+<field id="no_oficial"><phrase id="fldcaption" value="no oficial"/>
+</field>
+<field id="oficial"><phrase id="fldcaption" value="oficial"/>
+</field>
+<field id="alias"><phrase id="fldcaption" value="alias"/>
+</field>
+</table>
+<table id="reporte"><phrase id="tblcaption" value="REPORTE"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="fecha"><phrase id="fldcaption" value="fecha"/>
+</field>
+<field id="calificacion_total"><phrase id="fldcaption" value="calificacion total"/>
+</field>
+<field id="calificacion_inserciones"><phrase id="fldcaption" value="calificacion inserciones"/>
+</field>
+<field id="calificacion_actualizaciones"><phrase id="fldcaption" value="calificacion actualizaciones"/>
+</field>
+<field id="calificacion_eliminaciones"><phrase id="fldcaption" value="calificacion eliminaciones"/>
+</field>
+<field id="caracteristica_total"><phrase id="fldcaption" value="caracteristica total"/>
+</field>
+<field id="caracteristica_inserciones"><phrase id="fldcaption" value="caracteristica inserciones"/>
+</field>
+<field id="caracteristica_actualizaciones"><phrase id="fldcaption" value="caracteristica actualizaciones"/>
+</field>
+<field id="caracteristica_eliminaciones"><phrase id="fldcaption" value="caracteristica eliminaciones"/>
+</field>
+<field id="categoria_total"><phrase id="fldcaption" value="categoria total"/>
+</field>
+<field id="categoria_inserciones"><phrase id="fldcaption" value="categoria inserciones"/>
+</field>
+<field id="categoria_actualizaciones"><phrase id="fldcaption" value="categoria actualizaciones"/>
+</field>
+<field id="categoria_eliminaciones"><phrase id="fldcaption" value="categoria eliminaciones"/>
+</field>
+<field id="detalleservicio_total"><phrase id="fldcaption" value="detalle Servicio total"/>
+</field>
+<field id="detalleservicio_inserciones"><phrase id="fldcaption" value="detalle Servicio inserciones"/>
+</field>
+<field id="detalleservicio_actualizaciones"><phrase id="fldcaption" value="detalle Servicio actualizaciones"/>
+</field>
+<field id="detalleservicio_eliminaciones"><phrase id="fldcaption" value="detalle Servicio eliminaciones"/>
+</field>
+<field id="dimension_total"><phrase id="fldcaption" value="dimension total"/>
+</field>
+<field id="dimension_inserciones"><phrase id="fldcaption" value="dimension inserciones"/>
+</field>
+<field id="dimension_actualizaciones"><phrase id="fldcaption" value="dimension actualizaciones"/>
+</field>
+<field id="dimension_eliminaciones"><phrase id="fldcaption" value="dimension eliminaciones"/>
+</field>
+<field id="dimensionestablecimiento_total"><phrase id="fldcaption" value="dimension Establecimiento total"/>
+</field>
+<field id="dimensionestablecimiento_inserciones"><phrase id="fldcaption" value="dimension Establecimiento inserciones"/>
+</field>
+<field id="dimensionestablecimiento_actualizaciones"><phrase id="fldcaption" value="dimension Establecimiento actualizaciones"/>
+</field>
+<field id="dimensionestablecimiento_eliminaciones"><phrase id="fldcaption" value="dimension Establecimiento eliminaciones"/>
+</field>
+<field id="establecimiento_total"><phrase id="fldcaption" value="establecimiento total"/>
+</field>
+<field id="establecimiento_inserciones"><phrase id="fldcaption" value="establecimiento inserciones"/>
+</field>
+<field id="establecimiento_actualizaciones"><phrase id="fldcaption" value="establecimiento actualizaciones"/>
+</field>
+<field id="establecimiento_eliminaciones"><phrase id="fldcaption" value="establecimiento eliminaciones"/>
+</field>
+<field id="reserva_total"><phrase id="fldcaption" value="reserva total"/>
+</field>
+<field id="reserva_inserciones"><phrase id="fldcaption" value="reserva inserciones"/>
+</field>
+<field id="reserva_actualizaciones"><phrase id="fldcaption" value="reserva actualizaciones"/>
+</field>
+<field id="reserva_eliminaciones"><phrase id="fldcaption" value="reserva eliminaciones"/>
+</field>
+<field id="servicio_total"><phrase id="fldcaption" value="servicio total"/>
+</field>
+<field id="servicio_inserciones"><phrase id="fldcaption" value="servicio inserciones"/>
+</field>
+<field id="servicio_actualizaciones"><phrase id="fldcaption" value="servicio actualizaciones"/>
+</field>
+<field id="servicio_eliminaciones"><phrase id="fldcaption" value="servicio eliminaciones"/>
+</field>
+<field id="tipoestablecimiento_total"><phrase id="fldcaption" value="tipo Establecimiento total"/>
+</field>
+<field id="tipoestablecimiento_inserciones"><phrase id="fldcaption" value="tipo Establecimiento inserciones"/>
+</field>
+<field id="tipoestablecimiento_actualizaciones"><phrase id="fldcaption" value="tipo Establecimiento actualizaciones"/>
+</field>
+<field id="tipoestablecimiento_eliminaciones"><phrase id="fldcaption" value="tipo Establecimiento eliminaciones"/>
+</field>
+<field id="tiposervicio_total"><phrase id="fldcaption" value="tipo Servicio total"/>
+</field>
+<field id="tiposervicio_inserciones"><phrase id="fldcaption" value="tipo Servicio inserciones"/>
+</field>
+<field id="tiposervicio_actualizaciones"><phrase id="fldcaption" value="tipo Servicio actualizaciones"/>
+</field>
+<field id="tiposervicio_eliminaciones"><phrase id="fldcaption" value="tipo Servicio eliminaciones"/>
+</field>
+<field id="usuario_total"><phrase id="fldcaption" value="usuario total"/>
+</field>
+<field id="usuario_inserciones"><phrase id="fldcaption" value="usuario inserciones"/>
+</field>
+<field id="usuario_actualizaciones"><phrase id="fldcaption" value="usuario actualizaciones"/>
+</field>
+<field id="usuario_eliminaciones"><phrase id="fldcaption" value="usuario eliminaciones"/>
+</field>
+</table>
+<table id="temporal"><phrase id="tblcaption" value="TEMPORAL"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="calificacion_inserciones"><phrase id="fldcaption" value="calificacion inserciones"/>
+</field>
+<field id="calificacion_actualizaciones"><phrase id="fldcaption" value="calificacion actualizaciones"/>
+</field>
+<field id="calificacion_eliminaciones"><phrase id="fldcaption" value="calificacion eliminaciones"/>
+</field>
+<field id="caracteristica_inserciones"><phrase id="fldcaption" value="caracteristica inserciones"/>
+</field>
+<field id="caracteristica_actualizaciones"><phrase id="fldcaption" value="caracteristica actualizaciones"/>
+</field>
+<field id="caracteristica_eliminaciones"><phrase id="fldcaption" value="caracteristica eliminaciones"/>
+</field>
+<field id="categoria_inserciones"><phrase id="fldcaption" value="categoria inserciones"/>
+</field>
+<field id="categoria_actualizaciones"><phrase id="fldcaption" value="categoria actualizaciones"/>
+</field>
+<field id="categoria_eliminaciones"><phrase id="fldcaption" value="categoria eliminaciones"/>
+</field>
+<field id="detalleservicio_inserciones"><phrase id="fldcaption" value="detalle Servicio inserciones"/>
+</field>
+<field id="detalleservicio_actualizaciones"><phrase id="fldcaption" value="detalle Servicio actualizaciones"/>
+</field>
+<field id="detalleservicio_eliminaciones"><phrase id="fldcaption" value="detalle Servicio eliminaciones"/>
+</field>
+<field id="dimension_inserciones"><phrase id="fldcaption" value="dimension inserciones"/>
+</field>
+<field id="dimension_actualizaciones"><phrase id="fldcaption" value="dimension actualizaciones"/>
+</field>
+<field id="dimension_eliminaciones"><phrase id="fldcaption" value="dimension eliminaciones"/>
+</field>
+<field id="dimensionestablecimiento_inserciones"><phrase id="fldcaption" value="dimension Establecimiento inserciones"/>
+</field>
+<field id="dimensionestablecimiento_actualizaciones"><phrase id="fldcaption" value="dimension Establecimiento actualizaciones"/>
+</field>
+<field id="dimensionestablecimiento_eliminaciones"><phrase id="fldcaption" value="dimension Establecimiento eliminaciones"/>
+</field>
+<field id="establecimiento_inserciones"><phrase id="fldcaption" value="establecimiento inserciones"/>
+</field>
+<field id="establecimiento_actualizaciones"><phrase id="fldcaption" value="establecimiento actualizaciones"/>
+</field>
+<field id="establecimiento_eliminaciones"><phrase id="fldcaption" value="establecimiento eliminaciones"/>
+</field>
+<field id="reserva_inserciones"><phrase id="fldcaption" value="reserva inserciones"/>
+</field>
+<field id="reserva_actualizaciones"><phrase id="fldcaption" value="reserva actualizaciones"/>
+</field>
+<field id="reserva_eliminaciones"><phrase id="fldcaption" value="reserva eliminaciones"/>
+</field>
+<field id="servicio_inserciones"><phrase id="fldcaption" value="servicio inserciones"/>
+</field>
+<field id="servicio_actualizaciones"><phrase id="fldcaption" value="servicio actualizaciones"/>
+</field>
+<field id="servicio_eliminaciones"><phrase id="fldcaption" value="servicio eliminaciones"/>
+</field>
+<field id="tipoestablecimiento_inserciones"><phrase id="fldcaption" value="tipo Establecimiento inserciones"/>
+</field>
+<field id="tipoestablecimiento_actualizaciones"><phrase id="fldcaption" value="tipo Establecimiento actualizaciones"/>
+</field>
+<field id="tipoestablecimiento_eliminaciones"><phrase id="fldcaption" value="tipo Establecimiento eliminaciones"/>
+</field>
+<field id="tiposervicio_inserciones"><phrase id="fldcaption" value="tipo Servicio inserciones"/>
+</field>
+<field id="tiposervicio_actualizaciones"><phrase id="fldcaption" value="tipo Servicio actualizaciones"/>
+</field>
+<field id="tiposervicio_eliminaciones"><phrase id="fldcaption" value="tipo Servicio eliminaciones"/>
+</field>
+<field id="usuario_inserciones"><phrase id="fldcaption" value="usuario inserciones"/>
+</field>
+<field id="usuario_actualizaciones"><phrase id="fldcaption" value="usuario actualizaciones"/>
+</field>
+<field id="usuario_eliminaciones"><phrase id="fldcaption" value="usuario eliminaciones"/>
+</field>
+</table>
+<table id="jobview"><phrase id="tblcaption" value="jobview"/>
+<field id="fecha"><phrase id="fldcaption" value="fecha"/>
+</field>
+<field id="inserciones"><phrase id="fldcaption" value="calificacion inserciones"/>
+</field>
+<field id="actualizacioens"><phrase id="fldcaption" value="calificacion actualizaciones"/>
+</field>
+<field id="eliminaciones"><phrase id="fldcaption" value="calificacion eliminaciones"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="calificacion total"/>
+</field>
+<field id="tabla"><phrase id="fldcaption" value="Tabla"/>
+</field>
+</table>
+<table id="report6"><phrase id="tblcaption" value="Report 6"/>
+<field id="fecha"><phrase id="fldcaption" value="fecha"/>
+</field>
+<field id="inserciones"><phrase id="fldcaption" value="Inserciones"/>
+</field>
+<field id="actualizacioens"><phrase id="fldcaption" value="Actualizaciones"/>
+</field>
+<field id="eliminaciones"><phrase id="fldcaption" value="Eliminaciones"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="Total"/>
+</field>
+<field id="tabla"><phrase id="fldcaption" value="Tabla"/>
 </field>
 </table>
 </project>

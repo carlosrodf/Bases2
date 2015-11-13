@@ -37,10 +37,10 @@ define("EWR_TOKEN_NAME", "token", TRUE);
 define("EWR_SESSION_TOKEN", EWR_PROJECT_NAME . "_Token", TRUE);
 
 // Database connection
-define("EWR_CONN_HOST", 'localhost', TRUE);
+define("EWR_CONN_HOST", '192.168.1.57', TRUE);
 define("EWR_CONN_PORT", 3306, TRUE);
-define("EWR_CONN_USER", 'root', TRUE);
-define("EWR_CONN_PASS", 'admin', TRUE);
+define("EWR_CONN_USER", 'remoteroot', TRUE);
+define("EWR_CONN_PASS", 'remote', TRUE);
 define("EWR_CONN_DB", 'proyecto', TRUE);
 define("EWR_CONN_SCHEMA", '', TRUE);
 
@@ -72,7 +72,7 @@ $EWR_ROOT_RELATIVE_PATH = "."; // Relative path of app root
 define("EWR_DEFAULT_DATE_FORMAT", "yyyy/mm/dd", TRUE); // Default date format
 define("EWR_DATE_SEPARATOR", "/", TRUE); // Date separator
 define("EWR_UNFORMAT_YEAR", 50, TRUE); // Unformat year
-define("EWR_RANDOM_KEY", 'mihHutP0d4dUeZIB', TRUE); // Random key for encryption
+define("EWR_RANDOM_KEY", '1sSQMBfBXSMfzS3y', TRUE); // Random key for encryption
 define("EWR_PROJECT_STYLESHEET_FILENAME", "phprptcss/bases.css", TRUE); // Project stylesheet file name
 define("EWR_CHART_WIDTH", 550, TRUE);
 define("EWR_CHART_HEIGHT", 440, TRUE);

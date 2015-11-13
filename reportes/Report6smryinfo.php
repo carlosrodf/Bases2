@@ -1,81 +1,82 @@
 <?php
 
 // Global variable for table object
-$Report5 = NULL;
+$Report6 = NULL;
 
 //
-// Table class for Report5
+// Table class for Report6
 //
-class crReport5 extends crTableBase {
+class crReport6 extends crTableBase {
 
 //	var $SelectLimit = TRUE;
-	var $usuario;
-	var $nombre;
-	var $apellido;
-	var $rol;
-	var $Establecimiento;
+	var $fecha;
+	var $Tabla;
+	var $inserciones;
+	var $actualizacioens;
+	var $eliminaciones;
+	var $total;
 
 	//
 	// Table class constructor
 	//
 	function __construct() {
 		global $ReportLanguage;
-		$this->TableVar = 'Report5';
-		$this->TableName = 'Report5';
+		$this->TableVar = 'Report6';
+		$this->TableName = 'Report6';
 		$this->TableType = 'REPORT';
 		$this->ExportAll = TRUE;
 		$this->ExportPageBreakCount = 0;
 
-		// usuario
-		$this->usuario = new crField('Report5', 'Report5', 'x_usuario', 'usuario', '`usuario`', 200, EWR_DATATYPE_STRING, -1);
-		$this->usuario->GroupingFieldId = 1;
-		$this->fields['usuario'] = &$this->usuario;
-		$this->usuario->DateFilter = "";
-		$this->usuario->SqlSelect = "";
-		$this->usuario->SqlOrderBy = "";
-		$this->usuario->FldGroupByType = "";
-		$this->usuario->FldGroupInt = "0";
-		$this->usuario->FldGroupSql = "";
+		// fecha
+		$this->fecha = new crField('Report6', 'Report6', 'x_fecha', 'fecha', '`fecha`', 135, EWR_DATATYPE_DATE, 5);
+		$this->fecha->FldDefaultErrMsg = str_replace("%s", "/", $ReportLanguage->Phrase("IncorrectDateYMD"));
+		$this->fields['fecha'] = &$this->fecha;
+		$this->fecha->DateFilter = "";
+		$this->fecha->SqlSelect = "";
+		$this->fecha->SqlOrderBy = "";
 
-		// nombre
-		$this->nombre = new crField('Report5', 'Report5', 'x_nombre', 'nombre', '`nombre`', 200, EWR_DATATYPE_STRING, -1);
-		$this->nombre->GroupingFieldId = 2;
-		$this->fields['nombre'] = &$this->nombre;
-		$this->nombre->DateFilter = "";
-		$this->nombre->SqlSelect = "";
-		$this->nombre->SqlOrderBy = "";
-		$this->nombre->FldGroupByType = "";
-		$this->nombre->FldGroupInt = "0";
-		$this->nombre->FldGroupSql = "";
+		// Tabla
+		$this->Tabla = new crField('Report6', 'Report6', 'x_Tabla', 'Tabla', '`Tabla`', 200, EWR_DATATYPE_STRING, -1);
+		$this->Tabla->GroupingFieldId = 1;
+		$this->fields['Tabla'] = &$this->Tabla;
+		$this->Tabla->DateFilter = "";
+		$this->Tabla->SqlSelect = "";
+		$this->Tabla->SqlOrderBy = "";
+		$this->Tabla->FldGroupByType = "";
+		$this->Tabla->FldGroupInt = "0";
+		$this->Tabla->FldGroupSql = "";
 
-		// apellido
-		$this->apellido = new crField('Report5', 'Report5', 'x_apellido', 'apellido', '`apellido`', 200, EWR_DATATYPE_STRING, -1);
-		$this->apellido->GroupingFieldId = 3;
-		$this->fields['apellido'] = &$this->apellido;
-		$this->apellido->DateFilter = "";
-		$this->apellido->SqlSelect = "";
-		$this->apellido->SqlOrderBy = "";
-		$this->apellido->FldGroupByType = "";
-		$this->apellido->FldGroupInt = "0";
-		$this->apellido->FldGroupSql = "";
+		// inserciones
+		$this->inserciones = new crField('Report6', 'Report6', 'x_inserciones', 'inserciones', '`inserciones`', 3, EWR_DATATYPE_NUMBER, -1);
+		$this->inserciones->FldDefaultErrMsg = $ReportLanguage->Phrase("IncorrectInteger");
+		$this->fields['inserciones'] = &$this->inserciones;
+		$this->inserciones->DateFilter = "";
+		$this->inserciones->SqlSelect = "";
+		$this->inserciones->SqlOrderBy = "";
 
-		// rol
-		$this->rol = new crField('Report5', 'Report5', 'x_rol', 'rol', '`rol`', 200, EWR_DATATYPE_STRING, -1);
-		$this->rol->GroupingFieldId = 4;
-		$this->fields['rol'] = &$this->rol;
-		$this->rol->DateFilter = "";
-		$this->rol->SqlSelect = "SELECT DISTINCT `rol` FROM " . $this->getSqlFrom();
-		$this->rol->SqlOrderBy = "`rol`";
-		$this->rol->FldGroupByType = "";
-		$this->rol->FldGroupInt = "0";
-		$this->rol->FldGroupSql = "";
+		// actualizacioens
+		$this->actualizacioens = new crField('Report6', 'Report6', 'x_actualizacioens', 'actualizacioens', '`actualizacioens`', 3, EWR_DATATYPE_NUMBER, -1);
+		$this->actualizacioens->FldDefaultErrMsg = $ReportLanguage->Phrase("IncorrectInteger");
+		$this->fields['actualizacioens'] = &$this->actualizacioens;
+		$this->actualizacioens->DateFilter = "";
+		$this->actualizacioens->SqlSelect = "";
+		$this->actualizacioens->SqlOrderBy = "";
 
-		// Establecimiento
-		$this->Establecimiento = new crField('Report5', 'Report5', 'x_Establecimiento', 'Establecimiento', '`Establecimiento`', 200, EWR_DATATYPE_STRING, -1);
-		$this->fields['Establecimiento'] = &$this->Establecimiento;
-		$this->Establecimiento->DateFilter = "";
-		$this->Establecimiento->SqlSelect = "SELECT DISTINCT `Establecimiento` FROM " . $this->getSqlFrom();
-		$this->Establecimiento->SqlOrderBy = "`Establecimiento`";
+		// eliminaciones
+		$this->eliminaciones = new crField('Report6', 'Report6', 'x_eliminaciones', 'eliminaciones', '`eliminaciones`', 3, EWR_DATATYPE_NUMBER, -1);
+		$this->eliminaciones->FldDefaultErrMsg = $ReportLanguage->Phrase("IncorrectInteger");
+		$this->fields['eliminaciones'] = &$this->eliminaciones;
+		$this->eliminaciones->DateFilter = "";
+		$this->eliminaciones->SqlSelect = "";
+		$this->eliminaciones->SqlOrderBy = "";
+
+		// total
+		$this->total = new crField('Report6', 'Report6', 'x_total', 'total', '`total`', 3, EWR_DATATYPE_NUMBER, -1);
+		$this->total->FldDefaultErrMsg = $ReportLanguage->Phrase("IncorrectInteger");
+		$this->fields['total'] = &$this->total;
+		$this->total->DateFilter = "";
+		$this->total->SqlSelect = "";
+		$this->total->SqlOrderBy = "";
 	}
 
 	// Single column sort
@@ -128,7 +129,7 @@ class crReport5 extends crTableBase {
 	var $_SqlFrom = "";
 
 	function getSqlFrom() {
-		return ($this->_SqlFrom <> "") ? $this->_SqlFrom : "`reporte5view`";
+		return ($this->_SqlFrom <> "") ? $this->_SqlFrom : "`jobview`";
 	}
 
 	function SqlFrom() { // For backward compatibility
@@ -204,7 +205,7 @@ class crReport5 extends crTableBase {
 	var $_SqlOrderBy = "";
 
 	function getSqlOrderBy() {
-		return ($this->_SqlOrderBy <> "") ? $this->_SqlOrderBy : "`usuario` ASC, `nombre` ASC, `apellido` ASC, `rol` ASC";
+		return ($this->_SqlOrderBy <> "") ? $this->_SqlOrderBy : "`Tabla` ASC";
 	}
 
 	function SqlOrderBy() { // For backward compatibility
@@ -221,7 +222,7 @@ class crReport5 extends crTableBase {
 	var $_SqlFirstGroupField = "";
 
 	function getSqlFirstGroupField() {
-		return ($this->_SqlFirstGroupField <> "") ? $this->_SqlFirstGroupField : "`usuario`";
+		return ($this->_SqlFirstGroupField <> "") ? $this->_SqlFirstGroupField : "`Tabla`";
 	}
 
 	function SqlFirstGroupField() { // For backward compatibility
@@ -251,7 +252,7 @@ class crReport5 extends crTableBase {
 	var $_SqlOrderByGroup = "";
 
 	function getSqlOrderByGroup() {
-		return ($this->_SqlOrderByGroup <> "") ? $this->_SqlOrderByGroup : "`usuario` ASC";
+		return ($this->_SqlOrderByGroup <> "") ? $this->_SqlOrderByGroup : "`Tabla` ASC";
 	}
 
 	function SqlOrderByGroup() { // For backward compatibility
@@ -266,7 +267,7 @@ class crReport5 extends crTableBase {
 	var $_SqlSelectAgg = "";
 
 	function getSqlSelectAgg() {
-		return ($this->_SqlSelectAgg <> "") ? $this->_SqlSelectAgg : "SELECT * FROM " . $this->getSqlFrom();
+		return ($this->_SqlSelectAgg <> "") ? $this->_SqlSelectAgg : "SELECT SUM(`inserciones`) AS `sum_inserciones`, SUM(`actualizacioens`) AS `sum_actualizacioens`, SUM(`eliminaciones`) AS `sum_eliminaciones`, SUM(`total`) AS `sum_total` FROM " . $this->getSqlFrom();
 	}
 
 	function SqlSelectAgg() { // For backward compatibility

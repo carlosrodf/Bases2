@@ -12,7 +12,7 @@ if (!defined('ADODB_FETCH_DEFAULT')) define('ADODB_FETCH_DEFAULT', 0);
 if (!defined('ADODB_FETCH_NUM')) define('ADODB_FETCH_NUM', 1);
 if (!defined('ADODB_FETCH_ASSOC')) define('ADODB_FETCH_ASSOC', 2);
 if (!defined('ADODB_FETCH_BOTH')) define('ADODB_FETCH_BOTH', 3);
-define('EW_USE_MYSQLI', FALSE && extension_loaded("mysqli"), TRUE);
+define('EW_USE_MYSQLI', TRUE && extension_loaded("mysqli"), TRUE);
 
 /**
  * ADOConnection

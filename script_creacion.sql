@@ -512,3 +512,117 @@ CREATE TABLE TEMPORAL(
 
 INSERT INTO REPORTE VALUES(0,NOW(),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 INSERT INTO TEMPORAL VALUES(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+
+CREATE 
+    ALGORITHM = UNDEFINED 
+    DEFINER = `root`@`localhost` 
+    SQL SECURITY DEFINER
+VIEW `proyecto`.`jobview` AS
+    SELECT 
+        'Calificacion' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`calificacion_inserciones` AS `inserciones`,
+        `proyecto`.`REPORTE`.`calificacion_actualizaciones` AS `actualizacioens`,
+        `proyecto`.`REPORTE`.`calificacion_eliminaciones` AS `eliminaciones`,
+        `proyecto`.`REPORTE`.`calificacion_total` AS `total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Caracteristica' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`caracteristica_inserciones` AS `caracteristica_inserciones`,
+        `proyecto`.`REPORTE`.`caracteristica_actualizaciones` AS `caracteristica_actualizaciones`,
+        `proyecto`.`REPORTE`.`caracteristica_eliminaciones` AS `caracteristica_eliminaciones`,
+        `proyecto`.`REPORTE`.`caracteristica_total` AS `caracteristica_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Categoria' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`categoria_inserciones` AS `categoria_inserciones`,
+        `proyecto`.`REPORTE`.`categoria_actualizaciones` AS `categoria_actualizaciones`,
+        `proyecto`.`REPORTE`.`categoria_eliminaciones` AS `categoria_eliminaciones`,
+        `proyecto`.`REPORTE`.`categoria_total` AS `categoria_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Detalle Servicio' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`detalleServicio_inserciones` AS `detalleServicio_inserciones`,
+        `proyecto`.`REPORTE`.`detalleServicio_actualizaciones` AS `detalleServicio_actualizaciones`,
+        `proyecto`.`REPORTE`.`detalleServicio_eliminaciones` AS `detalleServicio_eliminaciones`,
+        `proyecto`.`REPORTE`.`detalleServicio_total` AS `detalleServicio_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Dimension' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`dimension_inserciones` AS `dimension_inserciones`,
+        `proyecto`.`REPORTE`.`dimension_actualizaciones` AS `dimension_actualizaciones`,
+        `proyecto`.`REPORTE`.`dimension_eliminaciones` AS `dimension_eliminaciones`,
+        `proyecto`.`REPORTE`.`dimension_total` AS `dimension_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Dimension Establecimiento' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`dimensionEstablecimiento_inserciones` AS `dimensionEstablecimiento_inserciones`,
+        `proyecto`.`REPORTE`.`dimensionEstablecimiento_actualizaciones` AS `dimensionEstablecimiento_actualizaciones`,
+        `proyecto`.`REPORTE`.`dimensionEstablecimiento_eliminaciones` AS `dimensionEstablecimiento_eliminaciones`,
+        `proyecto`.`REPORTE`.`dimensionEstablecimiento_total` AS `dimensionEstablecimiento_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Establecimiento' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`establecimiento_inserciones` AS `establecimiento_inserciones`,
+        `proyecto`.`REPORTE`.`establecimiento_actualizaciones` AS `establecimiento_actualizaciones`,
+        `proyecto`.`REPORTE`.`establecimiento_eliminaciones` AS `establecimiento_eliminaciones`,
+        `proyecto`.`REPORTE`.`establecimiento_total` AS `establecimiento_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Reserva' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`reserva_inserciones` AS `reserva_inserciones`,
+        `proyecto`.`REPORTE`.`reserva_actualizaciones` AS `reserva_actualizaciones`,
+        `proyecto`.`REPORTE`.`reserva_eliminaciones` AS `reserva_eliminaciones`,
+        `proyecto`.`REPORTE`.`reserva_total` AS `reserva_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Servicio' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`servicio_inserciones` AS `servicio_inserciones`,
+        `proyecto`.`REPORTE`.`servicio_actualizaciones` AS `servicio_actualizaciones`,
+        `proyecto`.`REPORTE`.`servicio_eliminaciones` AS `servicio_eliminaciones`,
+        `proyecto`.`REPORTE`.`servicio_total` AS `servicio_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Tipo Establecimiento' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`tipoEstablecimiento_inserciones` AS `tipoEstablecimiento_inserciones`,
+        `proyecto`.`REPORTE`.`tipoEstablecimiento_actualizaciones` AS `tipoEstablecimiento_actualizaciones`,
+        `proyecto`.`REPORTE`.`tipoEstablecimiento_eliminaciones` AS `tipoEstablecimiento_eliminaciones`,
+        `proyecto`.`REPORTE`.`tipoEstablecimiento_total` AS `tipoEstablecimiento_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Tipo Servicio' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`tipoServicio_inserciones` AS `tipoServicio_inserciones`,
+        `proyecto`.`REPORTE`.`tipoServicio_actualizaciones` AS `tipoServicio_actualizaciones`,
+        `proyecto`.`REPORTE`.`tipoServicio_eliminaciones` AS `tipoServicio_eliminaciones`,
+        `proyecto`.`REPORTE`.`tipoServicio_total` AS `tipoServicio_total`
+    FROM
+        `proyecto`.`REPORTE` 
+    UNION SELECT 
+        'Usuario' AS `Tabla`,
+        `proyecto`.`REPORTE`.`fecha` AS `fecha`,
+        `proyecto`.`REPORTE`.`usuario_inserciones` AS `usuario_inserciones`,
+        `proyecto`.`REPORTE`.`usuario_actualizaciones` AS `usuario_actualizaciones`,
+        `proyecto`.`REPORTE`.`usuario_eliminaciones` AS `usuario_eliminaciones`,
+        `proyecto`.`REPORTE`.`usuario_total` AS `usuario_total`
+    FROM
+        `proyecto`.`REPORTE`;

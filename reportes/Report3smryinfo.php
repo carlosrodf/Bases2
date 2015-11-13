@@ -24,7 +24,7 @@ class crReport3 extends crTableBase {
 		$this->TableVar = 'Report3';
 		$this->TableName = 'Report3';
 		$this->TableType = 'REPORT';
-		$this->ExportAll = FALSE;
+		$this->ExportAll = TRUE;
 		$this->ExportPageBreakCount = 0;
 
 		// Tipo

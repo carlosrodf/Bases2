@@ -455,7 +455,7 @@ class crReport5_summary extends crReport5 {
 	var $TotalGrps = 0; // Total groups
 	var $GrpCount = 0; // Group count
 	var $GrpCounter = array(); // Group counter
-	var $DisplayGrps = 3; // Groups per page
+	var $DisplayGrps = 10; // Groups per page
 	var $GrpRange = 10;
 	var $Sort = "";
 	var $Filter = "";
@@ -994,7 +994,7 @@ class crReport5_summary extends crReport5 {
 				if (strtoupper($sWrk) == "ALL") { // Display all groups
 					$this->DisplayGrps = -1;
 				} else {
-					$this->DisplayGrps = 3; // Non-numeric, load default
+					$this->DisplayGrps = 10; // Non-numeric, load default
 				}
 			}
 			$this->setGroupPerPage($this->DisplayGrps); // Save to session
@@ -1006,7 +1006,7 @@ class crReport5_summary extends crReport5 {
 			if ($this->getGroupPerPage() <> "") {
 				$this->DisplayGrps = $this->getGroupPerPage(); // Restore from session
 			} else {
-				$this->DisplayGrps = 3; // Load default
+				$this->DisplayGrps = 10; // Load default
 			}
 		}
 	}
