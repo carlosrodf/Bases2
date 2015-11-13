@@ -54,7 +54,7 @@ IGNORE 1 ROWS;
 
 INSERT INTO USUARIO (usuario, nombre, apellido, rol, password) values ('no_oficial', 'no_oficial', 'no_oficial', 4, 'no_oficial');
 INSERT INTO TIPO_SERVICIO (nombre) VALUES ('OTROS-G2');
-INSERT INTO USUARIO (usuario, nombre, apellido, rol, password) values ('G2', 'G2', 'G2', 3, 'G2');
+INSERT INTO USUARIO (usuario, nombre, apellido, rol, password) values ('G2', 'G2', 'G2', 2, 'G2');
 
 INSERT INTO TIPO_ESTABLECIMIENTO (nombre) 
 SELECT establecimiento_tipo FROM GRUPO2TEMP
