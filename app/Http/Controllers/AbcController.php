@@ -23,14 +23,14 @@ class AbcController extends Controller
         $opciones[$establecimiento->establecimiento] = $establecimiento->nombre;
       }
 
-      $establecimientos = DB::select('call getEstablecimientosNoOficiales()');
+      $establecimientos2 = DB::select('call getEstablecimientosNoOficiales()');
       $opciones2 = array();
-      foreach ($establecimientos as $establecimiento) {
-        $opciones2[$establecimiento->establecimiento] = $establecimiento->nombre;
+      foreach ($establecimientos2 as $establecimiento2) {
+        $opciones2[$establecimiento2->establecimiento] = $establecimiento2->nombre;
       }
 
       return view('abc.merge',array('opciones' => $opciones, 'opciones2' => $opciones2));
-    }     
+    }
 
     public function hacerMerge(){
           DB::statement('call merge(?,?);',array(
