@@ -624,3 +624,53 @@ VIEW `proyecto`.`jobview` AS
         `proyecto`.`REPORTE`.`usuario_total` AS `usuario_total`
     FROM
         `proyecto`.`REPORTE`;
+
+
+CREATE 
+    ALGORITHM = UNDEFINED 
+    DEFINER = `root`@`localhost`
+    SQL SECURITY DEFINER
+VIEW `proyecto`.`reporte0view` AS
+    SELECT 
+        'Categoria' AS `Caracteristica`,
+        `proyecto`.`DIMENSION`.`nombre` AS `Dimension`,
+        COUNT(1) AS `Total`
+    FROM
+        ((`proyecto`.`ESTABLECIMIENTO`
+        JOIN `proyecto`.`DIMENSION_ESTABLECIMIENTO` ON ((`proyecto`.`ESTABLECIMIENTO`.`establecimiento` = `proyecto`.`DIMENSION_ESTABLECIMIENTO`.`establecimiento`)))
+        JOIN `proyecto`.`DIMENSION` ON ((`proyecto`.`DIMENSION_ESTABLECIMIENTO`.`dimension` = `proyecto`.`DIMENSION`.`dimension`)))
+    GROUP BY `proyecto`.`DIMENSION`.`dimension` 
+    UNION SELECT 
+        'Tipo establecimeinto' AS `Caracteristica`,
+        `proyecto`.`TIPO_ESTABLECIMIENTO`.`nombre` AS `TipoEstablecimiento`,
+        COUNT(1) AS `Total`
+    FROM
+        (`proyecto`.`ESTABLECIMIENTO`
+        JOIN `proyecto`.`TIPO_ESTABLECIMIENTO` ON ((`proyecto`.`TIPO_ESTABLECIMIENTO`.`tipo_establecimiento` = `proyecto`.`ESTABLECIMIENTO`.`tipo_establecimiento`)))
+    GROUP BY `proyecto`.`TIPO_ESTABLECIMIENTO`.`tipo_establecimiento` 
+    UNION SELECT 
+        'Servicio' AS `Caracteristica`,
+        `proyecto`.`SERVICIO`.`nombre` AS `Servicio`,
+        COUNT(1) AS `Total`
+    FROM
+        (`proyecto`.`ESTABLECIMIENTO`
+        JOIN `proyecto`.`SERVICIO` ON ((`proyecto`.`ESTABLECIMIENTO`.`establecimiento` = `proyecto`.`SERVICIO`.`establecimiento`)))
+    GROUP BY `proyecto`.`SERVICIO`.`nombre`;
+
+CREATE 
+    ALGORITHM = UNDEFINED 
+    DEFINER = `root`@`localhost` 
+    SQL SECURITY DEFINER
+VIEW `proyecto`.`reporte1view` AS
+    SELECT 
+        `proyecto`.`USUARIO`.`usuario` AS `Usuario`,
+        CONCAT(`proyecto`.`USUARIO`.`nombre`,
+                ' ',
+                `proyecto`.`USUARIO`.`apellido`) AS `Nombre`,
+        `proyecto`.`ESTABLECIMIENTO`.`nombre` AS `Establecimiento`,
+        IF((`proyecto`.`ESTABLECIMIENTO`.`oficial` = 1),
+            'ofcial',
+            'no oficial') AS `Oficial`
+    FROM
+        (`proyecto`.`USUARIO`
+        JOIN `proyecto`.`ESTABLECIMIENTO` ON ((`proyecto`.`USUARIO`.`id_usuario` = `proyecto`.`ESTABLECIMIENTO`.`usuario`)));

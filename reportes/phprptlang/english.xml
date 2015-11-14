@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" standalone="yes"?>
-<ew-language date="2015/11/12" version="8.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+<ew-language date="2015/11/13" version="8.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
 	<locale>
 		<phrase id="locale" value=""/><!-- *** system locale for this language -->
 		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
@@ -231,6 +231,16 @@
 		<phrase id="thisyear" value="This year"/>
 	</global>
 	<project><phrase id="footertext" value="&amp;copy;2015 e.World Technology Ltd. All rights reserved."/>
+<menu id="29"><phrase id="menutext" value="GRUPO7TEMP"/>
+</menu>
+<menu id="30"><phrase id="menutext" value="reporte 1view"/>
+</menu>
+<menu id="31"><phrase id="menutext" value="Report 1"/>
+</menu>
+<menu id="32"><phrase id="menutext" value="reporte 0view"/>
+</menu>
+<menu id="33"><phrase id="menutext" value="Report 0"/>
+</menu>
 <menu id="23"><phrase id="menutext" value="GRUPO2TEMP"/>
 </menu>
 <menu id="24"><phrase id="menutext" value="OTRO NOMBRE"/>
@@ -810,6 +820,8 @@
 <table id="report6"><phrase id="tblcaption" value="Report 6"/>
 <field id="fecha"><phrase id="fldcaption" value="fecha"/>
 </field>
+<field id="tabla"><phrase id="fldcaption" value="Tabla"/>
+</field>
 <field id="inserciones"><phrase id="fldcaption" value="Inserciones"/>
 </field>
 <field id="actualizacioens"><phrase id="fldcaption" value="Actualizaciones"/>
@@ -818,7 +830,75 @@
 </field>
 <field id="total"><phrase id="fldcaption" value="Total"/>
 </field>
-<field id="tabla"><phrase id="fldcaption" value="Tabla"/>
+</table>
+<table id="grupo7temp"><phrase id="tblcaption" value="GRUPO7TEMP"/>
+<field id="id_estabto"><phrase id="fldcaption" value="id estabto"/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="nombre"/>
+</field>
+<field id="id_tipo"><phrase id="fldcaption" value="id tipo"/>
+</field>
+<field id="latitud"><phrase id="fldcaption" value="latitud"/>
+</field>
+<field id="longitud"><phrase id="fldcaption" value="longitud"/>
+</field>
+<field id="id_tamano"><phrase id="fldcaption" value="id tamano"/>
+</field>
+<field id="id_costo"><phrase id="fldcaption" value="id costo"/>
+</field>
+<field id="id_usr"><phrase id="fldcaption" value="id usr"/>
+</field>
+<field id="id_tp_user"><phrase id="fldcaption" value="id tp user"/>
+</field>
+<field id="usuario"><phrase id="fldcaption" value="usuario"/>
+</field>
+<field id="contrasena"><phrase id="fldcaption" value="contrasena"/>
+</field>
+<field id="id_srv"><phrase id="fldcaption" value="id srv"/>
+</field>
+<field id="tipo"><phrase id="fldcaption" value="tipo"/>
+</field>
+<field id="id_estabto_usuario"><phrase id="fldcaption" value="id estabto usuario"/>
+</field>
+<field id="precio"><phrase id="fldcaption" value="precio"/>
+</field>
+<field id="usr_estabto"><phrase id="fldcaption" value="usr estabto"/>
+</field>
+</table>
+<table id="reporte1view"><phrase id="tblcaption" value="reporte 1view"/>
+<field id="usuario"><phrase id="fldcaption" value="usuario"/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="Nombre"/>
+</field>
+<field id="establecimiento"><phrase id="fldcaption" value="nombre"/>
+</field>
+<field id="oficial"><phrase id="fldcaption" value="Oficial"/>
+</field>
+</table>
+<table id="report1"><phrase id="tblcaption" value="Report 1"/>
+<field id="usuario"><phrase id="fldcaption" value="Usuario"/>
+</field>
+<field id="nombre"><phrase id="fldcaption" value="Nombre Usuario"/>
+</field>
+<field id="establecimiento"><phrase id="fldcaption" value="Establecimiento"/>
+</field>
+<field id="oficial"><phrase id="fldcaption" value="Oficial"/>
+</field>
+</table>
+<table id="reporte0view"><phrase id="tblcaption" value="reporte 0view"/>
+<field id="caracteristica"><phrase id="fldcaption" value="Caracteristica"/>
+</field>
+<field id="dimension"><phrase id="fldcaption" value="Dimension"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="Total"/>
+</field>
+</table>
+<table id="report0"><phrase id="tblcaption" value="Report 0"/>
+<field id="caracteristica"><phrase id="fldcaption" value="Caracteristica"/>
+</field>
+<field id="dimension"><phrase id="fldcaption" value="Nombre"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="Total"/>
 </field>
 </table>
 </project>

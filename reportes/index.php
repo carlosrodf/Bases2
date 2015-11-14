@@ -236,6 +236,10 @@ class crrptdefault {
 			$this->Page_Terminate("Report4smry.php");
 		if ($Security->IsLoggedIn())
 			$this->Page_Terminate("Report6smry.php");
+		if ($Security->IsLoggedIn())
+			$this->Page_Terminate("Report1smry.php");
+		if ($Security->IsLoggedIn())
+			$this->Page_Terminate("Report0smry.php");
 		if ($Security->IsLoggedIn()) {
 			$this->setFailureMessage("<p>" . $ReportLanguage->Phrase("NoPermission") . "</p><p><a href=\"rlogout.php\">" . $ReportLanguage->Phrase("BackToLogin") . "</a></p>");
 		} else {

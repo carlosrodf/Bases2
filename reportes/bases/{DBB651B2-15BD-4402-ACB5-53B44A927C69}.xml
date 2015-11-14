@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
-<configuration date="2015/11/12" author="e.World Technology Ltd.">
-<project id="{DBB651B2-15BD-4402-ACB5-53B44A927C69}" file="C:\Users\bases\Documents\PHPReportMaker\bases.prp" name="bases" product="PHPReportMaker" version="8.1" datetime="2015/11/12 19:55:34" languagefolder="phprptlang" userlevel="0,&quot;Default&quot;,0">
+<configuration date="2015/11/13" author="e.World Technology Ltd.">
+<project id="{DBB651B2-15BD-4402-ACB5-53B44A927C69}" file="C:\Users\bases\Documents\PHPReportMaker\bases.prp" name="bases" product="PHPReportMaker" version="8.1" datetime="2015/11/13 22:54:22" languagefolder="phprptlang" userlevel="0,&quot;Default&quot;,0">
 <table id="CALIFICACION" name="CALIFICACION" caption="CALIFICACION" userlevel="0,&quot;Default&quot;,0" priv="1"/>
 <table id="CARACTERISTICA" name="CARACTERISTICA" caption="CARACTERISTICA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
 <table id="CATEGORIA" name="CATEGORIA" caption="CATEGORIA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
@@ -28,4 +28,9 @@
 <table id="TEMPORAL" name="TEMPORAL" caption="TEMPORAL" userlevel="0,&quot;Default&quot;,0" priv="1"/>
 <table id="jobview" name="jobview" caption="jobview" userlevel="0,&quot;Default&quot;,0" priv="1"/>
 <table id="Report6" name="Report6" caption="Report 6" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="GRUPO7TEMP" name="GRUPO7TEMP" caption="GRUPO7TEMP" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="reporte1view" name="reporte1view" caption="reporte 1view" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Report1" name="Report1" caption="Report 1" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="reporte0view" name="reporte0view" caption="reporte 0view" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="Report0" name="Report0" caption="Report 0" userlevel="0,&quot;Default&quot;,0" priv="1"/>
 </project></configuration>

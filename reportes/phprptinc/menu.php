@@ -5,6 +5,8 @@
 
 // Generate all menu items
 $RootMenu->IsRoot = TRUE;
+$RootMenu->AddMenuItem(31, "mi_Report1", $ReportLanguage->Phrase("DetailSummaryReportMenuItemPrefix") . $ReportLanguage->MenuPhrase("31", "MenuText") . $ReportLanguage->Phrase("DetailSummaryReportMenuItemSuffix"), "Report1smry.php", -1, "", IsLoggedIn(), FALSE);
+$RootMenu->AddMenuItem(33, "mi_Report0", $ReportLanguage->Phrase("DetailSummaryReportMenuItemPrefix") . $ReportLanguage->MenuPhrase("33", "MenuText") . $ReportLanguage->Phrase("DetailSummaryReportMenuItemSuffix"), "Report0smry.php", -1, "", IsLoggedIn(), FALSE);
 $RootMenu->AddMenuItem(16, "mi_Report2", $ReportLanguage->Phrase("DetailSummaryReportMenuItemPrefix") . $ReportLanguage->MenuPhrase("16", "MenuText") . $ReportLanguage->Phrase("DetailSummaryReportMenuItemSuffix"), "Report2smry.php", -1, "", IsLoggedIn(), FALSE);
 $RootMenu->AddMenuItem(17, "mi_Report3", $ReportLanguage->Phrase("DetailSummaryReportMenuItemPrefix") . $ReportLanguage->MenuPhrase("17", "MenuText") . $ReportLanguage->Phrase("DetailSummaryReportMenuItemSuffix"), "Report3smry.php", -1, "", IsLoggedIn(), FALSE);
 $RootMenu->AddMenuItem(22, "mi_Report4", $ReportLanguage->Phrase("DetailSummaryReportMenuItemPrefix") . $ReportLanguage->MenuPhrase("22", "MenuText") . $ReportLanguage->Phrase("DetailSummaryReportMenuItemSuffix"), "Report4smry.php", -1, "", IsLoggedIn(), FALSE);
