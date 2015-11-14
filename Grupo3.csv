@@ -1,0 +1,698 @@
+ID_Establecimiento;Nombre;Coordenadas;Tipo Establecimiento;Establecimiento Oficial;Servicio Establecimiento;Descripcion Servicio ;Calificacion;Comentario
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Buen servicio
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;7;Buen servicio
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Buen servicio
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Buen servicio
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;5;Bastante bueno
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;5;Bastante bueno
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;4;Podria mejorar
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;4;Podria mejorar
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;3;Malo
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;3;Malo
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;4;Debe mejorar
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;4;Debe mejorar
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Excelente temporada
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;7;Excelente temporada
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Excelente 
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;7;Excelente 
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Excelente 
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;7;Excelente 
+4;Ali baba;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Excelente 
+5;Cafe LaPaix;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Excelente 
+6;La Creppe;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;7;Excelente 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;7;Excelente 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;7;Excelente 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;7;Excelente 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;5;Normal 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;5;Normal 
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;5;Normal 
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;5;Normal 
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;5;Normal 
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;5;Normal 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;5;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;5;Normal 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Normal 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;3;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;3;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;3;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;3;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;3;Normal 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;3;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal 
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+23;Vifrio Car Express;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;5;Normal XD
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal todo sin problemas 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal todo sin problemas 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal todo sin problemas 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal todo sin problemas 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal todo sin problemas 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal todo sin problemas 
+22;JR Centrocar;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Normal todo sin problemas 
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Normal
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;6;Todo bien
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;6;Todo bien
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Spa;Spa;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Piscina;Piscina;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Gimnasio;Gimnasio;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Tennis;Cancha de Tennis;2;Fallaron
+12;Hostales del Irtra;47.87146,2.4550;Hospedaje;Si;Cancha de Futbol;Cancha de Futbol;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+7;Kentucky Fried Chicken;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;2;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;2;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;2;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;4;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;4;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;4;Fallaron
+3;Kloster;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;4;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;4;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;4;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;4;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;4;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;4;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;4;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;3;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;3;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;3;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;3;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas automaticas;Servicio de cajas automaticas;3;Fallaron
+24;Vitatrac;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;3;Fallaron
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;7;Nitido
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Servicio a domicilio; Servicio a domicilio;7;Nitido
+2;Hacienda Real;48.87146,2.3550;Restaurantes;Si;Reserva de mesas;Reserva de mesas;7;Nitido
+28;Caribe Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;7;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;6;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;6;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;6;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;6;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+28;Caribe Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Mantenimiento General;Mantenimiento General;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Balanceo;Balanceo;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Alineacion;Alineacion;5;Nitido
+21;Enauto;47.87146,2.4550;Taller Mecanico;Si;Enderezado y pintura;Enderezado y pintura;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Nitido
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;1;Malo
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;1;Malo
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;1;Malo
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;1;Malo
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+27;Siebold;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;7;Nitido
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Mantenimiento Preventivo;Mantenimiento Preventivo;6;Regular
+29;Continental Motores;47.87145,2.4549;Taller Mecanico;Si;Alineacion;Alineacion;6;Regular
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
+25;Quantum;47.87145,2.4549;Taller Mecanico;Si;Servicio de cajas mecanicas;Servicio de cajas mecanicas;5;Intermedio
