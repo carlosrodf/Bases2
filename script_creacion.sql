@@ -347,7 +347,8 @@ SQL SECURITY DEFINER
 VIEW `reporte2view` AS
 SELECT
         `TIPO_ESTABLECIMIENTO`.`nombre` AS `Tipo`,
-        `ESTABLECIMIENTO`.`nombre` AS `Establecimiento`,
+        Concat('<a href="http://192.168.122.243:8080/establecimiento/', `proyecto`.`ESTABLECIMIENTO`.`establecimiento`,'">',
+         `proyecto`.`ESTABLECIMIENTO`.`nombre`, '</a>') AS `Establecimiento`,
         `DIMENSION`.`nombre` AS `Dimension`,
         `CATEGORIA`.`nombre` AS `Categoria`,
         `SERVICIO`.`nombre` AS `Servicio`,
@@ -367,7 +368,8 @@ DEFINER=`root`@`localhost`
 SQL SECURITY DEFINER
 VIEW `reporte3view` AS
 select `TIPO_ESTABLECIMIENTO`.`nombre` AS `Tipo`,
-`ESTABLECIMIENTO`.`nombre` AS `Establecimiento`,
+Concat('<a href="http://192.168.122.243:8080/establecimiento/', `proyecto`.`ESTABLECIMIENTO`.`establecimiento`,'">',
+         `proyecto`.`ESTABLECIMIENTO`.`nombre`, '</a>') AS `Establecimiento`,
 `SERVICIO`.`nombre` AS `Servicio`,
 `CALIFICACION`.`punteo` AS `EsferasI`,
 (select avg(`CALIFICACION`.`punteo`) AS `Esferas total`
@@ -400,7 +402,8 @@ select `USUARIO`.`usuario` AS `usuario`,
 `USUARIO`.`nombre` AS `nombre`,
 `USUARIO`.`apellido` AS `apellido`,
 if((`USUARIO`.`rol` = 1),'SUPER',if((`USUARIO`.`rol` = 2),'ADMIN','FINAL')) AS `rol`,
-`ESTABLECIMIENTO`.`nombre` AS `Establecimiento`
+Concat('<a href="http://192.168.122.243:8080/establecimiento/', `proyecto`.`ESTABLECIMIENTO`.`establecimiento`,'">',
+         `proyecto`.`ESTABLECIMIENTO`.`nombre`, '</a>') AS `Establecimiento`
 from (`USUARIO`
 left join `ESTABLECIMIENTO` on((`USUARIO`.`id_usuario` = `ESTABLECIMIENTO`.`usuario`))) ;
 
@@ -667,7 +670,8 @@ VIEW `proyecto`.`reporte1view` AS
         CONCAT(`proyecto`.`USUARIO`.`nombre`,
                 ' ',
                 `proyecto`.`USUARIO`.`apellido`) AS `Nombre`,
-        `proyecto`.`ESTABLECIMIENTO`.`nombre` AS `Establecimiento`,
+        Concat('<a href="http://192.168.122.243:8080/establecimiento/', `proyecto`.`ESTABLECIMIENTO`.`establecimiento`,'">',
+         `proyecto`.`ESTABLECIMIENTO`.`nombre`, '</a>') AS `Establecimiento`,
         IF((`proyecto`.`ESTABLECIMIENTO`.`oficial` = 1),
             'ofcial',
             'no oficial') AS `Oficial`

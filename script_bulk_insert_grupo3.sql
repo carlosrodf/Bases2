@@ -14,7 +14,7 @@ CREATE TABLE GRUPO3_TEMP(
 	comentario VARCHAR(255)
 );
 
-LOAD DATA LOCAL INFILE '/home/pruebas/Bases2/Grupo3.csv'
+LOAD DATA LOCAL INFILE '/home/carlosrodf/Bases2/Grupo3.csv'
 INTO TABLE GRUPO3_TEMP
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'

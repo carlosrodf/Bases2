@@ -21,7 +21,7 @@ CREATE TABLE GRUPO7TEMP(
 	usr_estabto VARCHAR(255)
 );
 
-LOAD DATA LOCAL INFILE '/media/kevin/4712A7D769A4B1CC/Dropbox/usac/8voSemestre/bases2/BD2-20015-S2/ArchivosBases2/salidaprecargagrupo 7.csv' 
+LOAD DATA LOCAL INFILE '/home/carlosrodf/Bases2/salidaprecargagrupo7.csv' 
 INTO TABLE GRUPO7TEMP 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'

@@ -35,7 +35,7 @@ CREATE TABLE GRUPO6_TEMP(
 	tipo_user_trc VARCHAR(255)
 );
 
-LOAD DATA LOCAL INFILE '/home/pruebas/Bases2/salida_grupo6.csv'
+LOAD DATA LOCAL INFILE '/home/carlosrodf/Bases2/salida_grupo6.csv'
 INTO TABLE GRUPO6_TEMP
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
