@@ -132,3 +132,5 @@ GROUP BY S.servicio, C.caracteristica;
 -- INNER JOIN GRUPO2TEMP S ON SE.establecimiento_servicio_Fid_servicio = S.servicio_id_servicio
 -- INNER JOIN SERVICIO S2 ON CONCAT(S.servicio_nombre, ' - G2') = S2.nombre
 -- GROUP BY C.comentario_id_comentario;
+
+DROP TABLE GRUPO2TEMP;
